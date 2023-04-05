@@ -1,0 +1,15 @@
+{
+  "locale": "uk",
+  "translations": {
+    "homePageSEOTitle": "Домашня сторінка",
+    "homePageTitle": "Інтернаціоналізація",
+    "logoAlternativeText": "Логотип Angular",
+    "textWithoutAnElement": "Текст без елемента.",
+    "builtInPipesTitle": "Вбудовані пайпи",
+    "dateLabel": "Дата:",
+    "timeLabel": "Час:",
+    "currencyLabel": "Валюта:",
+    "welcomeMessage": "Раді бачити вас знову, {$userFirstName} {$userLastName}.",
+    "homePageSEODescription": "Опис домашньої сторінки"
+  }
+}

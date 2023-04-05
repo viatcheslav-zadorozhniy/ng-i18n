@@ -1,0 +1,15 @@
+<form>
+  <h2 i18n="@@feedbackFormTitle">Feedback form</h2>
+
+  <!-- https://angular.io/guide/i18n-common-prepare#icu-expressions -->
+  <label
+    for="feedback"
+    i18n="@@feedbackFormLabel"
+  >Leave you feedback, {user.gender, select, male {Mr.} female {Ms.}} {{ user.firstName }}</label>
+  <br>
+
+  <textarea id="feedback" name="feedback"></textarea>
+  <br>
+
+  <button type="button" i18n="@@submitButton">Submit</button>
+</form>

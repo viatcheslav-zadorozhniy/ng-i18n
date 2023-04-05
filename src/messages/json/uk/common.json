@@ -1,0 +1,12 @@
+{
+  "locale": "uk",
+  "translations": {
+    "menuItemHome": "Домашня",
+    "menuItemAbout": "Про нас",
+    "fullPageTitle": "{$pageTitle} | Додаток",
+    "feedbackFormTitle": "Форма зворотнього зв'язку",
+    "feedbackFormLabel": "Залиште ваш відгук, {$ICU} {$INTERPOLATION}",
+    "6514815349462835782": "{VAR_SELECT, select, male {пане} female {пані}}",
+    "submitButton": "Надіслати"
+  }
+}

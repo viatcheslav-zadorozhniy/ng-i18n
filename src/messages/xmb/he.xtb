@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE translationbundle>
+<translationbundle lang="he">
+  <translation id="menuItemHome">בית</translation>
+  <translation id="menuItemAbout">על אודות</translation>
+  <translation id="homePageSEOTitle">דף הבית</translation>
+  <translation id="aboutPageSEOTitle">על אודות</translation>
+  <translation id="aboutPageTitle">עלינו</translation>
+  <translation id="aboutPageSEODescription">מידע על מטא תיאור דף</translation>
+  <translation id="homePageTitle">בִּנאוּם</translation>
+  <translation id="logoAlternativeText">לוגו זוויתי</translation>
+  <translation id="textWithoutAnElement">טקסט ללא אלמנט.</translation>
+  <translation id="builtInPipesTitle">צינורות מובנים</translation>
+  <translation id="dateLabel">תַאֲרִיך:</translation>
+  <translation id="timeLabel">זְמַן:</translation>
+  <translation id="currencyLabel">מַטְבֵּעַ:</translation>
+  <translation id="welcomeMessage">שמח לראות אותך שוב, <ph name="userFirstName"/> <ph name="userLastName"/>.</translation>
+  <translation id="homePageSEODescription">תיאור מטא של דף הבית</translation>
+  <translation id="fullPageTitle"><ph name="pageTitle"/> | יישום</translation>
+  <translation id="feedbackFormTitle">טופס משוב</translation>
+  <translation id="feedbackFormLabel">השאירו משוב, <ph name="ICU"/> <ph name="INTERPOLATION"/></translation>
+  <translation id="6514815349462835782">{VAR_SELECT, select, male {אדון.} female {גברת.}}</translation>
+  <translation id="submitButton">שלח</translation>
+</translationbundle>

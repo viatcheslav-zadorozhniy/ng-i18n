@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE messagebundle [
+<!ELEMENT messagebundle (msg)*>
+<!ATTLIST messagebundle class CDATA #IMPLIED>
+
+<!ELEMENT msg (#PCDATA|ph|source)*>
+<!ATTLIST msg id CDATA #IMPLIED>
+<!ATTLIST msg seq CDATA #IMPLIED>
+<!ATTLIST msg name CDATA #IMPLIED>
+<!ATTLIST msg desc CDATA #IMPLIED>
+<!ATTLIST msg meaning CDATA #IMPLIED>
+<!ATTLIST msg obsolete (obsolete) #IMPLIED>
+<!ATTLIST msg xml:space (default|preserve) "default">
+<!ATTLIST msg is_hidden CDATA #IMPLIED>
+
+<!ELEMENT source (#PCDATA)>
+
+<!ELEMENT ph (#PCDATA|ex)*>
+<!ATTLIST ph name CDATA #REQUIRED>
+
+<!ELEMENT ex (#PCDATA)>
+]>
+<messagebundle>
+  <msg id="menuItemHome"><source>src/app/app-root.component.html:7</source>Home</msg>
+  <msg id="menuItemAbout"><source>src/app/app-root.component.html:13</source>About</msg>
+  <msg id="homePageSEOTitle" desc="Homepage title for SEO"><source>src/app/app.routes.ts:10</source>Homepage</msg>
+  <msg id="aboutPageSEOTitle" desc="About page title for SEO"><source>src/app/app.routes.ts:15</source>About</msg>
+  <msg id="aboutPageTitle"><source>src/app/pages/about/about.component.html:0</source>About us</msg>
+  <msg id="aboutPageSEODescription" desc="About page description for SEO"><source>src/app/pages/about/about.component.ts:24</source>About page meta description</msg>
+  <msg id="homePageTitle" desc="Homepage title" meaning="An introduction header of the application"><source>src/app/pages/home/home.component.html:2</source>Internationalization</msg>
+  <msg id="logoAlternativeText"><source>src/app/pages/home/home.component.html:11</source>Angular logo</msg>
+  <msg id="textWithoutAnElement"><source>src/app/pages/home/home.component.html:19</source>Text without an element.</msg>
+  <msg id="builtInPipesTitle"><source>src/app/pages/home/home.component.html:25</source>Built-in pipes</msg>
+  <msg id="dateLabel" desc="Date label"><source>src/app/pages/home/home.component.html:29</source>Date:</msg>
+  <msg id="timeLabel" desc="Time label"><source>src/app/pages/home/home.component.html:33</source>Time:</msg>
+  <msg id="currencyLabel" desc="Currency label"><source>src/app/pages/home/home.component.html:37</source>Currency:</msg>
+  <msg id="welcomeMessage"><source>src/app/pages/home/home.component.ts:30</source>Glad to see you again, <ph name="userFirstName"/> <ph name="userLastName"/>.</msg>
+  <msg id="homePageSEODescription" desc="Homepage description for SEO"><source>src/app/pages/home/home.component.ts:38</source>Homepage meta description</msg>
+  <msg id="fullPageTitle" desc="Page title including application name"><source>src/app/services/page-title.strategy.ts:15</source><ph name="pageTitle"/> | Application</msg>
+  <msg id="feedbackFormTitle"><source>src/app/shared/feedback-form/feedback-form.component.html:1</source>Feedback form</msg>
+  <msg id="feedbackFormLabel"><source>src/app/shared/feedback-form/feedback-form.component.html:7</source>Leave you feedback, <ph name="ICU"/> <ph name="INTERPOLATION"/></msg>
+  <msg id="6514815349462835782"><source>src/app/shared/feedback-form/feedback-form.component.html:7</source>{VAR_SELECT, select, male {Mr.} female {Ms.}}</msg>
+  <msg id="submitButton"><source>src/app/shared/feedback-form/feedback-form.component.html:15</source>Submit</msg>
+</messagebundle>

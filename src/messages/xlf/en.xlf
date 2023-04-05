@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="menuItemHome" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app-root.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="menuItemAbout" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app-root.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homePageSEOTitle" datatype="html">
+        <source>Homepage</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">Homepage title for SEO</note>
+      </trans-unit>
+      <trans-unit id="aboutPageSEOTitle" datatype="html">
+        <source>About</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.routes.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">About page title for SEO</note>
+      </trans-unit>
+      <trans-unit id="aboutPageTitle" datatype="html">
+        <source>About us</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aboutPageSEODescription" datatype="html">
+        <source>About page meta description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/about/about.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">About page description for SEO</note>
+      </trans-unit>
+      <trans-unit id="homePageTitle" datatype="html">
+        <source>Internationalization</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Homepage title</note>
+        <note priority="1" from="meaning">An introduction header of the application</note>
+      </trans-unit>
+      <trans-unit id="logoAlternativeText" datatype="html">
+        <source>Angular logo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="textWithoutAnElement" datatype="html">
+        <source>Text without an element.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="builtInPipesTitle" datatype="html">
+        <source>Built-in pipes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dateLabel" datatype="html">
+        <source>Date:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <note priority="1" from="description">Date label</note>
+      </trans-unit>
+      <trans-unit id="timeLabel" datatype="html">
+        <source>Time:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">Time label</note>
+      </trans-unit>
+      <trans-unit id="currencyLabel" datatype="html">
+        <source>Currency:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <note priority="1" from="description">Currency label</note>
+      </trans-unit>
+      <trans-unit id="welcomeMessage" datatype="html">
+        <source>Glad to see you again, <x id="userFirstName" equiv-text="this.user.firstName"/> <x id="userLastName" equiv-text="this.user.lastName"/>.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="homePageSEODescription" datatype="html">
+        <source>Homepage meta description</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <note priority="1" from="description">Homepage description for SEO</note>
+      </trans-unit>
+      <trans-unit id="fullPageTitle" datatype="html">
+        <source><x id="pageTitle" equiv-text="title"/> | Application</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/page-title.strategy.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description">Page title including application name</note>
+      </trans-unit>
+      <trans-unit id="feedbackFormTitle" datatype="html">
+        <source>Feedback form</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/feedback-form/feedback-form.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="feedbackFormLabel" datatype="html">
+        <source>Leave you feedback, <x id="ICU" equiv-text="{user.gender, select, male {Mr.} female {Ms.}}" xid="6514815349462835782"/> <x id="INTERPOLATION" equiv-text="{{ user.firstName }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/feedback-form/feedback-form.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6514815349462835782" datatype="html">
+        <source>{VAR_SELECT, select, male {Mr.} female {Ms.}}</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/feedback-form/feedback-form.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="submitButton" datatype="html">
+        <source>Submit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/feedback-form/feedback-form.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

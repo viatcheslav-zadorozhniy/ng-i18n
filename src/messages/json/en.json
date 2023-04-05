@@ -1,0 +1,25 @@
+{
+  "locale": "en",
+  "translations": {
+    "menuItemHome": "Home",
+    "menuItemAbout": "About",
+    "homePageSEOTitle": "Homepage",
+    "aboutPageSEOTitle": "About",
+    "aboutPageTitle": "About us",
+    "aboutPageSEODescription": "About page meta description",
+    "homePageTitle": "Internationalization",
+    "logoAlternativeText": "Angular logo",
+    "textWithoutAnElement": "Text without an element.",
+    "builtInPipesTitle": "Built-in pipes",
+    "dateLabel": "Date:",
+    "timeLabel": "Time:",
+    "currencyLabel": "Currency:",
+    "welcomeMessage": "Glad to see you again, {$userFirstName} {$userLastName}.",
+    "homePageSEODescription": "Homepage meta description",
+    "fullPageTitle": "{$pageTitle} | Application",
+    "feedbackFormTitle": "Feedback form",
+    "feedbackFormLabel": "Leave you feedback, {$ICU} {$INTERPOLATION}",
+    "6514815349462835782": "{VAR_SELECT, select, male {Mr.} female {Ms.}}",
+    "submitButton": "Submit"
+  }
+}

@@ -1,0 +1,28 @@
+<header>
+  <nav>
+    <a
+      i18n="@@menuItemHome"
+      [routerLink]="'/'"
+      [routerLinkActive]="'menu-item-active'"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >Home</a>
+
+    <a
+      i18n="@@menuItemAbout"
+      [routerLink]="'/about'"
+      [routerLinkActive]="'menu-item-active'"
+    >About</a>
+  </nav>
+
+  <select [ngModel]="currentLocaleId" (ngModelChange)="handleLocaleChange($event)">
+    <option
+      *ngFor="let locale of locales"
+      [selected]="locale.id === currentLocaleId"
+      [value]="locale.id"
+    >{{ locale.label }}</option>
+  </select>
+</header>
+
+<main>
+  <router-outlet></router-outlet>
+</main>

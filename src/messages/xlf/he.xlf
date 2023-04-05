@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="he">
+    <body>
+      <trans-unit id="menuItemHome" datatype="html">
+        <source>Home</source>
+        <target state="final">בית</target>
+      </trans-unit>
+      <trans-unit id="menuItemAbout" datatype="html">
+        <source>About</source>
+        <target state="final">על אודות</target>
+      </trans-unit>
+      <trans-unit id="homePageSEOTitle" datatype="html">
+        <source>Homepage</source>
+        <target state="final">דף הבית</target>
+        <note priority="1" from="description">Homepage title for SEO</note>
+      </trans-unit>
+      <trans-unit id="aboutPageSEOTitle" datatype="html">
+        <source>About</source>
+        <target state="final">על אודות</target>
+        <note priority="1" from="description">About page title for SEO</note>
+      </trans-unit>
+      <trans-unit id="aboutPageTitle" datatype="html">
+        <source>About us</source>
+        <target state="final">עלינו</target>
+      </trans-unit>
+      <trans-unit id="aboutPageSEODescription" datatype="html">
+        <source>About page meta description</source>
+        <target state="final">מידע על מטא תיאור דף</target>
+        <note priority="1" from="description">About page description for SEO</note>
+      </trans-unit>
+      <trans-unit id="homePageTitle" datatype="html">
+        <source>Internationalization</source>
+        <target state="final">בִּנאוּם</target>
+        <note priority="1" from="description">Homepage title</note>
+        <note priority="1" from="meaning">An introduction header of the application</note>
+      </trans-unit>
+      <trans-unit id="logoAlternativeText" datatype="html">
+        <source>Angular logo</source>
+        <target state="final">לוגו זוויתי</target>
+      </trans-unit>
+      <trans-unit id="textWithoutAnElement" datatype="html">
+        <source>Text without an element.</source>
+        <target state="final">טקסט ללא אלמנט.</target>
+      </trans-unit>
+      <trans-unit id="builtInPipesTitle" datatype="html">
+        <source>Built-in pipes</source>
+        <target state="final">צינורות מובנים</target>
+      </trans-unit>
+      <trans-unit id="dateLabel" datatype="html">
+        <source>Date:</source>
+        <target state="final">תַאֲרִיך:</target>
+        <note priority="1" from="description">Date label</note>
+      </trans-unit>
+      <trans-unit id="timeLabel" datatype="html">
+        <source>Time:</source>
+        <target state="final">זְמַן:</target>
+        <note priority="1" from="description">Time label</note>
+      </trans-unit>
+      <trans-unit id="currencyLabel" datatype="html">
+        <source>Currency:</source>
+        <target state="final">מַטְבֵּעַ:</target>
+        <note priority="1" from="description">Currency label</note>
+      </trans-unit>
+      <trans-unit id="welcomeMessage" datatype="html">
+        <source>Glad to see you again, <x id="userFirstName" equiv-text="this.user.firstName"/> <x id="userLastName" equiv-text="this.user.lastName"/>.</source>
+        <target state="final">שמח לראות אותך שוב, <x id="userFirstName" equiv-text="this.user.firstName"/> <x id="userLastName" equiv-text="this.user.lastName"/>.</target>
+      </trans-unit>
+      <trans-unit id="homePageSEODescription" datatype="html">
+        <source>Homepage meta description</source>
+        <target state="final">תיאור מטא של דף הבית</target>
+        <note priority="1" from="description">Homepage description for SEO</note>
+      </trans-unit>
+      <trans-unit id="fullPageTitle" datatype="html">
+        <source><x id="pageTitle" equiv-text="title"/> | Application</source>
+        <target state="final"><x id="pageTitle" equiv-text="title"/> | יישום</target>
+        <note priority="1" from="description">Page title including application name</note>
+      </trans-unit>
+      <trans-unit id="feedbackFormTitle" datatype="html">
+        <source>Feedback form</source>
+        <target state="final">טופס משוב</target>
+      </trans-unit>
+      <trans-unit id="feedbackFormLabel" datatype="html">
+        <source>Leave you feedback, <x id="ICU" equiv-text="{user.gender, select, male {Mr.} female {Ms.}}" xid="6514815349462835782"/> <x id="INTERPOLATION" equiv-text="{{ user.firstName }}"/></source>
+        <target state="final">השאירו משוב, <x id="ICU" equiv-text="{user.gender, select, male {Mr.} female {Ms.}}" xid="6514815349462835782"/> <x id="INTERPOLATION" equiv-text="{{ user.firstName }}"/></target>
+      </trans-unit>
+      <trans-unit id="6514815349462835782" datatype="html">
+        <source>{VAR_SELECT, select, male {Mr.} female {Ms.}}</source>
+        <target state="final">{VAR_SELECT, select, male {אדון.} female {גברת.}}</target>
+      </trans-unit>
+      <trans-unit id="submitButton" datatype="html">
+        <source>Submit</source>
+        <target state="final">שלח</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

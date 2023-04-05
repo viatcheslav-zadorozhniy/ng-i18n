@@ -1,0 +1,192 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "cli": {
+    "packageManager": "yarn"
+  },
+  "newProjectRoot": "projects",
+  "schematics": {
+    "@schematics/angular:component": {
+      "skipTests": true,
+      "standalone": true,
+      "style": "scss",
+      "changeDetection": "OnPush"
+    }
+  },
+  "projects": {
+    "app": {
+      "i18n": {
+        "sourceLocale": {
+          "code": "en",
+          "baseHref": "/en/"
+        },
+        "locales": {
+          "he": {
+            "translation": "src/messages/xlf2/he.xlf",
+            "baseHref": "/he/"
+          },
+          "uk": {
+            "translation": [
+              "src/messages/json/uk/common.json",
+              "src/messages/json/uk/home-page.json",
+              "src/messages/json/uk/about-page.json"
+            ],
+            "baseHref": "/uk/"
+          }
+        }
+      },
+      "projectType": "application",
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "localize": true,
+            "i18nMissingTranslation": "error",
+            "i18nDuplicateTranslation": "error",
+            "outputPath": "dist/app",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "buildOptimizer": false,
+            "optimization": false,
+            "vendorChunk": true,
+            "extractLicenses": false,
+            "sourceMap": true,
+            "namedChunks": true,
+            "polyfills": [
+              "zone.js"
+            ],
+            "tsConfig": "tsconfig.app.json",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
+            "scripts": []
+          },
+          "configurations": {
+            "production": {
+              "buildOptimizer": true,
+              "optimization": true,
+              "vendorChunk": false,
+              "extractLicenses": true,
+              "sourceMap": false,
+              "namedChunks": false,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "en": {
+              "localize": ["en"]
+            },
+            "he": {
+              "localize": ["he"]
+            },
+            "uk": {
+              "localize": ["uk"]
+            },
+            "jit": {
+              "tsConfig": "tsconfig-jit.app.json",
+              "main": "src/main-jit.ts",
+              "localize": false
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "open": true
+          },
+          "configurations": {
+            "en": {
+              "browserTarget": "app:build:en"
+            },
+            "he": {
+              "browserTarget": "app:build:he"
+            },
+            "uk": {
+              "browserTarget": "app:build:uk"
+            },
+            "jit": {
+              "browserTarget": "app:build:jit"
+            }
+          },
+          "defaultConfiguration": "en"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "app:build"
+          },
+          "configurations": {
+            "arb": {
+              "format": "arb",
+              "outFile": "en.arb",
+              "outputPath": "src/messages/arb"
+            },
+            "json": {
+              "format": "json",
+              "outFile": "en.json",
+              "outputPath": "src/messages/json"
+            },
+            "xlf": {
+              "format": "xlf",
+              "outFile": "en.xlf",
+              "outputPath": "src/messages/xlf"
+            },
+            "xlf2": {
+              "format": "xlf2",
+              "outFile": "en.xlf",
+              "outputPath": "src/messages/xlf2"
+            },
+            "xmb": {
+              "format": "xmb",
+              "outFile": "en.xmb",
+              "outputPath": "src/messages/xmb"
+            }
+          },
+          "defaultConfiguration": "xlf"
+        },
+        "extract-i18n-merge": {
+          "builder": "ng-extract-i18n-merge:ng-extract-i18n-merge",
+          "options": {
+            "browserTarget": "app:build",
+            "sourceFile": "en.xlf",
+            "includeContext": "sourceFileOnly",
+            "newTranslationTargetsBlank": true,
+            "targetFiles": [
+              "he.xlf",
+              "uk.xlf"
+            ]
+          },
+          "configurations": {
+            "xlf": {
+              "format": "xlf",
+              "outputPath": "src/messages/xlf"
+            },
+            "xlf2": {
+              "format": "xlf2",
+              "outputPath": "src/messages/xlf2"
+            }
+          },
+          "defaultConfiguration": "xlf"
+        }
+      }
+    }
+  }
+}

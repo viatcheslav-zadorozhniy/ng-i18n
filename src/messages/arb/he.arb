@@ -1,0 +1,213 @@
+{
+  "@@locale": "he",
+  "menuItemHome": "בית",
+  "@menuItemHome": {
+    "x-locations": [
+      {
+        "file": "src/app/app-root.component.html",
+        "start": { "line": "7", "column": "5" },
+        "end": { "line": "7", "column": "9" }
+      }
+    ]
+  },
+  "menuItemAbout": "על אודות",
+  "@menuItemAbout": {
+    "x-locations": [
+      {
+        "file": "src/app/app-root.component.html",
+        "start": { "line": "13", "column": "5" },
+        "end": { "line": "13", "column": "10" }
+      }
+    ]
+  },
+  "homePageSEOTitle": "דף הבית",
+  "@homePageSEOTitle": {
+    "description": "Homepage title for SEO",
+    "x-locations": [
+      {
+        "file": "src/app/app.routes.ts",
+        "start": { "line": "9", "column": "30" },
+        "end": { "line": "9", "column": "82" }
+      }
+    ]
+  },
+  "aboutPageSEOTitle": "על אודות",
+  "@aboutPageSEOTitle": {
+    "description": "About page title for SEO",
+    "x-locations": [
+      {
+        "file": "src/app/app.routes.ts",
+        "start": { "line": "14", "column": "30" },
+        "end": { "line": "14", "column": "82" }
+      }
+    ]
+  },
+  "aboutPageTitle": "עלינו",
+  "@aboutPageTitle": {
+    "x-locations": [
+      {
+        "file": "src/app/pages/about/about.component.html",
+        "start": { "line": "0", "column": "28" },
+        "end": { "line": "0", "column": "36" }
+      }
+    ]
+  },
+  "aboutPageSEODescription": "מידע על מטא תיאור דף",
+  "@aboutPageSEODescription": {
+    "description": "About page description for SEO",
+    "x-locations": [
+      {
+        "file": "src/app/pages/about/about.component.ts",
+        "start": { "line": "26", "column": "24" },
+        "end": { "line": "26", "column": "110" }
+      }
+    ]
+  },
+  "homePageTitle": "בִּנאוּם",
+  "@homePageTitle": {
+    "description": "Homepage title",
+    "x-meaning": "An introduction header of the application",
+    "x-locations": [
+      {
+        "file": "src/app/pages/home/home.component.html",
+        "start": { "line": "2", "column": "83" },
+        "end": { "line": "2", "column": "103" }
+      }
+    ]
+  },
+  "logoAlternativeText": "לוגו זוויתי",
+  "@logoAlternativeText": {
+    "x-locations": [
+      {
+        "file": "src/app/pages/home/home.component.html",
+        "start": { "line": "11", "column": "9" },
+        "end": { "line": "11", "column": "21" }
+      }
+    ]
+  },
+  "textWithoutAnElement": "טקסט ללא אלמנט.",
+  "@textWithoutAnElement": {
+    "x-locations": [
+      {
+        "file": "src/app/pages/home/home.component.html",
+        "start": { "line": "19", "column": "46" },
+        "end": { "line": "19", "column": "70" }
+      }
+    ]
+  },
+  "builtInPipesTitle": "צינורות מובנים",
+  "@builtInPipesTitle": {
+    "x-locations": [
+      {
+        "file": "src/app/pages/home/home.component.html",
+        "start": { "line": "25", "column": "33" },
+        "end": { "line": "25", "column": "47" }
+      }
+    ]
+  },
+  "dateLabel": "תַאֲרִיך:",
+  "@dateLabel": {
+    "description": "Date label",
+    "x-locations": [
+      {
+        "file": "src/app/pages/home/home.component.html",
+        "start": { "line": "29", "column": "49" },
+        "end": { "line": "29", "column": "54" }
+      }
+    ]
+  },
+  "timeLabel": "זְמַן:",
+  "@timeLabel": {
+    "description": "Time label",
+    "x-locations": [
+      {
+        "file": "src/app/pages/home/home.component.html",
+        "start": { "line": "33", "column": "49" },
+        "end": { "line": "33", "column": "54" }
+      }
+    ]
+  },
+  "currencyLabel": "מַטְבֵּעַ:",
+  "@currencyLabel": {
+    "description": "Currency label",
+    "x-locations": [
+      {
+        "file": "src/app/pages/home/home.component.html",
+        "start": { "line": "37", "column": "57" },
+        "end": { "line": "37", "column": "66" }
+      }
+    ]
+  },
+  "welcomeMessage": "שמח לראות אותך שוב, {$userFirstName} {$userLastName}.",
+  "@welcomeMessage": {
+    "x-locations": [
+      {
+        "file": "src/app/pages/home/home.component.ts",
+        "start": { "line": "30", "column": "4" },
+        "end": { "line": "30", "column": "121" }
+      }
+    ]
+  },
+  "homePageSEODescription": "תיאור מטא של דף הבית",
+  "@homePageSEODescription": {
+    "description": "Homepage description for SEO",
+    "x-locations": [
+      {
+        "file": "src/app/pages/home/home.component.ts",
+        "start": { "line": "40", "column": "24" },
+        "end": { "line": "40", "column": "105" }
+      }
+    ]
+  },
+  "fullPageTitle": "{$pageTitle} | יישום",
+  "@fullPageTitle": {
+    "description": "Page title including application name",
+    "x-locations": [
+      {
+        "file": "src/app/services/page-title.strategy.ts",
+        "start": { "line": "17", "column": "17" },
+        "end": { "line": "17", "column": "111" }
+      }
+    ]
+  },
+  "feedbackFormTitle": "טופס משוב",
+  "@feedbackFormTitle": {
+    "x-locations": [
+      {
+        "file": "src/app/shared/feedback-form/feedback-form.component.html",
+        "start": { "line": "1", "column": "33" },
+        "end": { "line": "1", "column": "46" }
+      }
+    ]
+  },
+  "feedbackFormLabel": "השאירו משוב, {$ICU} {$INTERPOLATION}",
+  "@feedbackFormLabel": {
+    "x-locations": [
+      {
+        "file": "src/app/shared/feedback-form/feedback-form.component.html",
+        "start": { "line": "7", "column": "3" },
+        "end": { "line": "7", "column": "90" }
+      }
+    ]
+  },
+  "6514815349462835782": "{VAR_SELECT, select, male {אדון.} female {גברת.}}",
+  "@6514815349462835782": {
+    "x-locations": [
+      {
+        "file": "src/app/shared/feedback-form/feedback-form.component.html",
+        "start": { "line": "7", "column": "23" },
+        "end": { "line": "7", "column": "69" }
+      }
+    ]
+  },
+  "submitButton": "שלח",
+  "@submitButton": {
+    "x-locations": [
+      {
+        "file": "src/app/shared/feedback-form/feedback-form.component.html",
+        "start": { "line": "15", "column": "46" },
+        "end": { "line": "15", "column": "52" }
+      }
+    ]
+  }
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en" trgLang="uk">
+  <file id="ngi18n" original="ng.template">
+    <unit id="menuItemHome">
+      <segment state="final">
+        <source>Home</source>
+        <target>Домашня</target>
+      </segment>
+    </unit>
+    <unit id="menuItemAbout">
+      <segment state="final">
+        <source>About</source>
+        <target>Про нас</target>
+      </segment>
+    </unit>
+    <unit id="homePageSEOTitle">
+      <segment state="final">
+        <source>Homepage</source>
+        <target>Домашня сторінка</target>
+      </segment>
+    </unit>
+    <unit id="aboutPageSEOTitle">
+      <segment state="final">
+        <source>About</source>
+        <target>Про нас</target>
+      </segment>
+    </unit>
+    <unit id="aboutPageTitle">
+      <segment state="final">
+        <source>About us</source>
+        <target>Про нас</target>
+      </segment>
+    </unit>
+    <unit id="aboutPageSEODescription">
+      <segment state="final">
+        <source>About page meta description</source>
+        <target>Опис сторінки про нас</target>
+      </segment>
+    </unit>
+    <unit id="homePageTitle">
+      <segment state="final">
+        <source>Internationalization</source>
+        <target>Інтернаціоналізація</target>
+      </segment>
+    </unit>
+    <unit id="logoAlternativeText">
+      <segment state="final">
+        <source>Angular logo</source>
+        <target>Логотип Angular</target>
+      </segment>
+    </unit>
+    <unit id="textWithoutAnElement">
+      <segment state="final">
+        <source>Text without an element.</source>
+        <target>Текст без елемента.</target>
+      </segment>
+    </unit>
+    <unit id="builtInPipesTitle">
+      <segment state="final">
+        <source>Built-in pipes</source>
+        <target>Вбудовані пайпи</target>
+      </segment>
+    </unit>
+    <unit id="dateLabel">
+      <segment state="final">
+        <source>Date:</source>
+        <target>Дата:</target>
+      </segment>
+    </unit>
+    <unit id="timeLabel">
+      <segment state="final">
+        <source>Time:</source>
+        <target>Час:</target>
+      </segment>
+    </unit>
+    <unit id="currencyLabel">
+      <segment state="final">
+        <source>Currency:</source>
+        <target>Валюта:</target>
+      </segment>
+    </unit>
+    <unit id="welcomeMessage">
+      <segment state="final">
+        <source>Glad to see you again, <ph id="0" equiv="userFirstName" disp="this.user.firstName"/> <ph id="1" equiv="userLastName" disp="this.user.lastName"/>.</source>
+        <target>Раді бачити вас знову, <ph id="0" equiv="userFirstName" disp="this.user.firstName"/> <ph id="1" equiv="userLastName" disp="this.user.lastName"/>.</target>
+      </segment>
+    </unit>
+    <unit id="homePageSEODescription">
+      <segment state="final">
+        <source>Homepage meta description</source>
+        <target>Опис домашньої сторінки</target>
+      </segment>
+    </unit>
+    <unit id="fullPageTitle">
+      <segment state="final">
+        <source><ph id="0" equiv="pageTitle" disp="title"/> | Application</source>
+        <target><ph id="0" equiv="pageTitle" disp="title"/> | Додаток</target>
+      </segment>
+    </unit>
+    <unit id="feedbackFormTitle">
+      <segment state="final">
+        <source>Feedback form</source>
+        <target>Форма зворотнього зв&apos;язку</target>
+      </segment>
+    </unit>
+    <unit id="feedbackFormLabel">
+      <segment state="final">
+        <source>Leave you feedback, <ph id="0" equiv="ICU" disp="{user.gender, select, male {Mr.} female {Ms.}}" subFlows="6514815349462835782"/> <ph id="1" equiv="INTERPOLATION" disp="{{ user.firstName }}"/></source>
+        <target>Залиште ваш відгук, <ph id="0" equiv="ICU" disp="{user.gender, select, male {Mr.} female {Ms.}}" subFlows="6514815349462835782"/> <ph id="1" equiv="INTERPOLATION" disp="{{ user.firstName }}"/></target>
+      </segment>
+    </unit>
+    <unit id="6514815349462835782">
+      <segment state="final">
+        <source>{VAR_SELECT, select, male {Mr.} female {Ms.}}</source>
+        <target>{VAR_SELECT, select, male {пане} female {пані}}</target>
+      </segment>
+    </unit>
+    <unit id="submitButton">
+      <segment state="final">
+        <source>Submit</source>
+        <target>Надіслати</target>
+      </segment>
+    </unit>
+  </file>
+</xliff>

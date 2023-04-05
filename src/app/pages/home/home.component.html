@@ -1,0 +1,43 @@
+<!-- Add metadata for translation -->
+<!-- https://angular.io/guide/i18n-common-prepare#i18n-metadata-for-translation -->
+<h1 i18n="An introduction header of the application|Homepage title@@homePageTitle">Internationalization</h1>
+
+<p>{{ welcomeMessage }}</p>
+
+<div class="logo-container">
+  <!-- Mark element attributes for translations -->
+  <!-- https://angular.io/guide/i18n-common-prepare#mark-element-attributes-for-translations -->
+  <img
+    src="./assets/angular-logo.svg"
+    alt="Angular logo"
+    i18n-alt="@@logoAlternativeText"
+    width="37"
+    height="40"
+  />
+
+  <!-- Translate inline text without HTML element -->
+  <!-- https://angular.io/guide/i18n-common-prepare#translate-inline-text-without-html-element -->
+  <ng-container i18n="@@textWithoutAnElement">Text without an element.</ng-container>
+</div>
+
+<section>
+  <!-- Format data based on locale (using built-in pipes) -->
+  <!-- https://angular.io/guide/i18n-common-format-data-locale -->
+  <h2 i18n="@@builtInPipesTitle">Built-in pipes</h2>
+
+  <ul>
+    <li>
+      <span i18n="Date label@@dateLabel">Date:</span> {{ today | date:'mediumDate' }}
+    </li>
+
+    <li>
+      <span i18n="Time label@@timeLabel">Time:</span> {{ today | date:'mediumTime' }}
+    </li>
+
+    <li>
+      <span i18n="Currency label@@currencyLabel">Currency:</span> {{ 12.34 | currency }}
+    </li>
+  </ul>
+</section>
+
+<app-feedback-form [user]="user"></app-feedback-form>
