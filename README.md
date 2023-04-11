@@ -62,9 +62,7 @@ E.g.
 ```json
 "projects": {
   "app": {
-    // ...
     "architect": {
-      // ...
       "extract-i18n": {
         "builder": "@angular-devkit/build-angular:extract-i18n",
         "options": {
@@ -84,7 +82,6 @@ E.g.
 ```json
 {
   "scripts": {
-    // ...
     "extract-i18n": "ng extract-i18n"
   }
 }
@@ -123,7 +120,6 @@ E.g.
       "architect": {
         "build": {
           "options": {
-            // ...
             "localize": true,
             "i18nMissingTranslation": "error",
             "i18nDuplicateTranslation": "error"
@@ -154,7 +150,6 @@ E.g.
 ```json
 {
   "scripts": {
-    // ...
     "start:he": "ng serve -c=he",
     "start:uk": "ng serve -c=uk"
   }
