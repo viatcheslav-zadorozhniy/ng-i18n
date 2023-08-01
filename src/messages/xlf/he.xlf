@@ -62,6 +62,10 @@
         <target state="final">מַטְבֵּעַ:</target>
         <note priority="1" from="description">Currency label</note>
       </trans-unit>
+      <trans-unit id="textWithMarkup" datatype="html">
+        <source>For more information, visit the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;&apos;/about&apos;&quot;&gt;"/>about<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> page.</source>
+        <target state="final">למידע נוסף, בקר בדף <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;&apos;/about&apos;&quot;&gt;"/>אודות<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</target>
+      </trans-unit>
       <trans-unit id="welcomeMessage" datatype="html">
         <source>Glad to see you again, <x id="userFirstName" equiv-text="this.user.firstName"/> <x id="userLastName" equiv-text="this.user.lastName"/>.</source>
         <target state="final">שמח לראות אותך שוב, <x id="userFirstName" equiv-text="this.user.firstName"/> <x id="userLastName" equiv-text="this.user.lastName"/>.</target>

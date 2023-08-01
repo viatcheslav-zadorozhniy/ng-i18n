@@ -4,9 +4,9 @@ import { localeStorageKey } from '../locale/locale-storage-key';
 import { supportedLocales } from '../locale/supported-locales';
 
 export const getInitialLocale = (): Locale => {
-  const navigatorLanguage = globalThis.navigator.language.slice(0, 2) as Locale;
+  const navigatorLanguage = navigator.language.slice(0, 2) as Locale;
 
-  let locale = globalThis.localStorage.getItem(localeStorageKey) as Locale
+  let locale = localStorage.getItem(localeStorageKey) as Locale
     || navigatorLanguage
     || defaultLocale
   ;

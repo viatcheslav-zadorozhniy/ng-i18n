@@ -14,6 +14,7 @@
     "dateLabel": "Дата:",
     "timeLabel": "Час:",
     "currencyLabel": "Валюта:",
+    "textWithMarkup": "Для отримання додаткової інформації відвідайте сторінку {$START_LINK}про нас{$CLOSE_LINK}.",
     "welcomeMessage": "Раді бачити вас знову, {$userFirstName} {$userLastName}.",
     "homePageSEODescription": "Опис домашньої сторінки",
     "fullPageTitle": "{$pageTitle} | Додаток",

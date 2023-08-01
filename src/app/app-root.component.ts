@@ -1,9 +1,11 @@
-import { NgFor } from '@angular/common';
-import { ChangeDetectionStrategy, Component, LOCALE_ID, inject } from '@angular/core';
+import { NgFor, PlatformLocation } from '@angular/common';
+import { ChangeDetectionStrategy, Component, InjectionToken, LOCALE_ID, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 import { Locale, localeStorageKey } from './locale';
+
+export const JIT_TRANSLATION = new InjectionToken<boolean>('JIT_TRANSLATION');
 
 @Component({
   standalone: true,
@@ -28,8 +30,16 @@ export class AppRootComponent {
     { id: 'uk', label: 'Українська' },
   ];
 
+  private readonly jitTranslation = inject(JIT_TRANSLATION);
+  private readonly platformLocation = inject(PlatformLocation);
+
   handleLocaleChange(localeId: Locale): void {
-    globalThis.localStorage.setItem(localeStorageKey, localeId);
-    globalThis.location.reload();
+    if (this.jitTranslation) {
+      localStorage.setItem(localeStorageKey, localeId);
+      location.reload();
+    } else {
+      const baseHref = this.platformLocation.getBaseHrefFromDOM();
+      location.href = location.href.replace(baseHref, `/${localeId}/`);
+    }
   }
 }

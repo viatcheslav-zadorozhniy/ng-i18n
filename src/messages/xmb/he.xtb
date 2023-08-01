@@ -13,6 +13,7 @@
   <translation id="dateLabel">תַאֲרִיך:</translation>
   <translation id="timeLabel">זְמַן:</translation>
   <translation id="currencyLabel">מַטְבֵּעַ:</translation>
+  <translation id="textWithMarkup">למידע נוסף, בקר בדף <ph name="START_LINK"/>אודות<ph name="CLOSE_LINK"/>.</translation>
   <translation id="welcomeMessage">שמח לראות אותך שוב, <ph name="userFirstName"/> <ph name="userLastName"/>.</translation>
   <translation id="homePageSEODescription">תיאור מטא של דף הבית</translation>
   <translation id="fullPageTitle"><ph name="pageTitle"/> | יישום</translation>

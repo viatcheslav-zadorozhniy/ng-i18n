@@ -14,6 +14,7 @@
     "dateLabel": "Date:",
     "timeLabel": "Time:",
     "currencyLabel": "Currency:",
+    "textWithMarkup": "For more information, visit the {$START_LINK}about{$CLOSE_LINK} page.",
     "welcomeMessage": "Glad to see you again, {$userFirstName} {$userLastName}.",
     "homePageSEODescription": "Homepage meta description",
     "fullPageTitle": "{$pageTitle} | Application",

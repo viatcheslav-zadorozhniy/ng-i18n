@@ -101,18 +101,25 @@
         </context-group>
         <note priority="1" from="description">Currency label</note>
       </trans-unit>
+      <trans-unit id="textWithMarkup" datatype="html">
+        <source>For more information, visit the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;&apos;/about&apos;&quot;&gt;"/>about<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> page.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/home/home.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="welcomeMessage" datatype="html">
         <source>Glad to see you again, <x id="userFirstName" equiv-text="this.user.firstName"/> <x id="userLastName" equiv-text="this.user.lastName"/>.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.ts</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="homePageSEODescription" datatype="html">
         <source>Homepage meta description</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/home/home.component.ts</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">41</context>
         </context-group>
         <note priority="1" from="description">Homepage description for SEO</note>
       </trans-unit>
@@ -149,7 +156,7 @@
         <source>Submit</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/feedback-form/feedback-form.component.html</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
     </body>

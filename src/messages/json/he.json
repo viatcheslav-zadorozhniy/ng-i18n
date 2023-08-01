@@ -14,6 +14,7 @@
     "dateLabel": "תַאֲרִיך:",
     "timeLabel": "זְמַן:",
     "currencyLabel": "מַטְבֵּעַ:",
+    "textWithMarkup": "למידע נוסף, בקר בדף {$START_LINK}אודות{$CLOSE_LINK}.",
     "welcomeMessage": "שמח לראות אותך שוב, {$userFirstName} {$userLastName}.",
     "homePageSEODescription": "תיאור מטא של דף הבית",
     "fullPageTitle": "{$pageTitle} | יישום",

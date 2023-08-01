@@ -16,7 +16,7 @@ import { bootstrap } from './bootstrap';
 
 const locale = getInitialLocale();
 
-globalThis.localStorage.setItem(localeStorageKey, locale);
+localStorage.setItem(localeStorageKey, locale);
 
 // It is not necessary to load any translations for the default locale.
 if (locale === defaultLocale) {

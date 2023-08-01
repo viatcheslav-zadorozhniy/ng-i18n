@@ -79,6 +79,12 @@
         <target>מַטְבֵּעַ:</target>
       </segment>
     </unit>
+    <unit id="textWithMarkup">
+      <segment state="final">
+        <source>For more information, visit the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;&apos;/about&apos;&quot;&gt;" dispEnd="&lt;/a&gt;">about</pc> page.</source>
+        <target>למידע נוסף, בקר בדף <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;&apos;/about&apos;&quot;&gt;" dispEnd="&lt;/a&gt;">אודות</pc>.</target>
+      </segment>
+    </unit>
     <unit id="welcomeMessage">
       <segment state="final">
         <source>Glad to see you again, <ph id="0" equiv="userFirstName" disp="this.user.firstName"/> <ph id="1" equiv="userLastName" disp="this.user.lastName"/>.</source>

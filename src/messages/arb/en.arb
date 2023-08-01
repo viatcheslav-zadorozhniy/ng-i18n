@@ -138,13 +138,23 @@
       }
     ]
   },
+  "textWithMarkup": "For more information, visit the {$START_LINK}about{$CLOSE_LINK} page.",
+  "@textWithMarkup": {
+    "x-locations": [
+      {
+        "file": "src/app/pages/home/home.component.html",
+        "start": { "line": "44", "column": "27" },
+        "end": { "line": "44", "column": "101" }
+      }
+    ]
+  },
   "welcomeMessage": "Glad to see you again, {$userFirstName} {$userLastName}.",
   "@welcomeMessage": {
     "x-locations": [
       {
         "file": "src/app/pages/home/home.component.ts",
-        "start": { "line": "30", "column": "4" },
-        "end": { "line": "30", "column": "121" }
+        "start": { "line": "32", "column": "4" },
+        "end": { "line": "32", "column": "121" }
       }
     ]
   },
@@ -154,8 +164,8 @@
     "x-locations": [
       {
         "file": "src/app/pages/home/home.component.ts",
-        "start": { "line": "38", "column": "24" },
-        "end": { "line": "38", "column": "105" }
+        "start": { "line": "40", "column": "24" },
+        "end": { "line": "40", "column": "105" }
       }
     ]
   },
@@ -205,8 +215,8 @@
     "x-locations": [
       {
         "file": "src/app/shared/feedback-form/feedback-form.component.html",
-        "start": { "line": "15", "column": "46" },
-        "end": { "line": "15", "column": "52" }
+        "start": { "line": "13", "column": "46" },
+        "end": { "line": "13", "column": "52" }
       }
     ]
   }

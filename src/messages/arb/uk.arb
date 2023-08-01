@@ -1,213 +1,24 @@
 {
   "@@locale": "uk",
   "menuItemHome": "Домашня",
-  "@menuItemHome": {
-    "x-locations": [
-      {
-        "file": "src/app/app-root.component.html",
-        "start": { "line": "7", "column": "5" },
-        "end": { "line": "7", "column": "9" }
-      }
-    ]
-  },
   "menuItemAbout": "Про нас",
-  "@menuItemAbout": {
-    "x-locations": [
-      {
-        "file": "src/app/app-root.component.html",
-        "start": { "line": "13", "column": "5" },
-        "end": { "line": "13", "column": "10" }
-      }
-    ]
-  },
   "homePageSEOTitle": "Домашня сторінка",
-  "@homePageSEOTitle": {
-    "description": "Homepage title for SEO",
-    "x-locations": [
-      {
-        "file": "src/app/app.routes.ts",
-        "start": { "line": "9", "column": "30" },
-        "end": { "line": "9", "column": "82" }
-      }
-    ]
-  },
   "aboutPageSEOTitle": "Про нас",
-  "@aboutPageSEOTitle": {
-    "description": "About page title for SEO",
-    "x-locations": [
-      {
-        "file": "src/app/app.routes.ts",
-        "start": { "line": "14", "column": "30" },
-        "end": { "line": "14", "column": "82" }
-      }
-    ]
-  },
   "aboutPageTitle": "Про нас",
-  "@aboutPageTitle": {
-    "x-locations": [
-      {
-        "file": "src/app/pages/about/about.component.html",
-        "start": { "line": "0", "column": "28" },
-        "end": { "line": "0", "column": "36" }
-      }
-    ]
-  },
   "aboutPageSEODescription": "Опис сторінки про нас",
-  "@aboutPageSEODescription": {
-    "description": "About page description for SEO",
-    "x-locations": [
-      {
-        "file": "src/app/pages/about/about.component.ts",
-        "start": { "line": "16", "column": "24" },
-        "end": { "line": "16", "column": "110" }
-      }
-    ]
-  },
   "homePageTitle": "Інтернаціоналізація",
-  "@homePageTitle": {
-    "description": "Homepage title",
-    "x-meaning": "An introduction header of the application",
-    "x-locations": [
-      {
-        "file": "src/app/pages/home/home.component.html",
-        "start": { "line": "2", "column": "83" },
-        "end": { "line": "2", "column": "103" }
-      }
-    ]
-  },
   "logoAlternativeText": "Логотип Angular",
-  "@logoAlternativeText": {
-    "x-locations": [
-      {
-        "file": "src/app/pages/home/home.component.html",
-        "start": { "line": "11", "column": "9" },
-        "end": { "line": "11", "column": "21" }
-      }
-    ]
-  },
   "textWithoutAnElement": "Текст без елемента.",
-  "@textWithoutAnElement": {
-    "x-locations": [
-      {
-        "file": "src/app/pages/home/home.component.html",
-        "start": { "line": "19", "column": "46" },
-        "end": { "line": "19", "column": "70" }
-      }
-    ]
-  },
   "builtInPipesTitle": "Вбудовані пайпи",
-  "@builtInPipesTitle": {
-    "x-locations": [
-      {
-        "file": "src/app/pages/home/home.component.html",
-        "start": { "line": "25", "column": "33" },
-        "end": { "line": "25", "column": "47" }
-      }
-    ]
-  },
   "dateLabel": "Дата:",
-  "@dateLabel": {
-    "description": "Date label",
-    "x-locations": [
-      {
-        "file": "src/app/pages/home/home.component.html",
-        "start": { "line": "29", "column": "49" },
-        "end": { "line": "29", "column": "54" }
-      }
-    ]
-  },
   "timeLabel": "Час:",
-  "@timeLabel": {
-    "description": "Time label",
-    "x-locations": [
-      {
-        "file": "src/app/pages/home/home.component.html",
-        "start": { "line": "33", "column": "49" },
-        "end": { "line": "33", "column": "54" }
-      }
-    ]
-  },
   "currencyLabel": "Валюта:",
-  "@currencyLabel": {
-    "description": "Currency label",
-    "x-locations": [
-      {
-        "file": "src/app/pages/home/home.component.html",
-        "start": { "line": "37", "column": "57" },
-        "end": { "line": "37", "column": "66" }
-      }
-    ]
-  },
+  "textWithMarkup": "Для отримання додаткової інформації відвідайте сторінку {$START_LINK}про нас{$CLOSE_LINK}.",
   "welcomeMessage": "Раді бачити вас знову, {$userFirstName} {$userLastName}.",
-  "@welcomeMessage": {
-    "x-locations": [
-      {
-        "file": "src/app/pages/home/home.component.ts",
-        "start": { "line": "30", "column": "4" },
-        "end": { "line": "30", "column": "121" }
-      }
-    ]
-  },
   "homePageSEODescription": "Опис домашньої сторінки",
-  "@homePageSEODescription": {
-    "description": "Homepage description for SEO",
-    "x-locations": [
-      {
-        "file": "src/app/pages/home/home.component.ts",
-        "start": { "line": "40", "column": "24" },
-        "end": { "line": "40", "column": "105" }
-      }
-    ]
-  },
   "fullPageTitle": "{$pageTitle} | Додаток",
-  "@fullPageTitle": {
-    "description": "Page title including application name",
-    "x-locations": [
-      {
-        "file": "src/app/services/page-title.strategy.ts",
-        "start": { "line": "18", "column": "17" },
-        "end": { "line": "18", "column": "111" }
-      }
-    ]
-  },
   "feedbackFormTitle": "Форма зворотнього зв'язку",
-  "@feedbackFormTitle": {
-    "x-locations": [
-      {
-        "file": "src/app/shared/feedback-form/feedback-form.component.html",
-        "start": { "line": "1", "column": "33" },
-        "end": { "line": "1", "column": "46" }
-      }
-    ]
-  },
   "feedbackFormLabel": "Залиште ваш відгук, {$ICU} {$INTERPOLATION}",
-  "@feedbackFormLabel": {
-    "x-locations": [
-      {
-        "file": "src/app/shared/feedback-form/feedback-form.component.html",
-        "start": { "line": "7", "column": "3" },
-        "end": { "line": "7", "column": "90" }
-      }
-    ]
-  },
   "6514815349462835782": "{VAR_SELECT, select, male {пане} female {пані}}",
-  "@6514815349462835782": {
-    "x-locations": [
-      {
-        "file": "src/app/shared/feedback-form/feedback-form.component.html",
-        "start": { "line": "7", "column": "23" },
-        "end": { "line": "7", "column": "69" }
-      }
-    ]
-  },
-  "submitButton": "Надіслати",
-  "@submitButton": {
-    "x-locations": [
-      {
-        "file": "src/app/shared/feedback-form/feedback-form.component.html",
-        "start": { "line": "15", "column": "46" },
-        "end": { "line": "15", "column": "52" }
-      }
-    ]
-  }
+  "submitButton": "Надіслати"
 }

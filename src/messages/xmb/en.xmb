@@ -34,11 +34,12 @@
   <msg id="dateLabel" desc="Date label"><source>src/app/pages/home/home.component.html:29</source>Date:</msg>
   <msg id="timeLabel" desc="Time label"><source>src/app/pages/home/home.component.html:33</source>Time:</msg>
   <msg id="currencyLabel" desc="Currency label"><source>src/app/pages/home/home.component.html:37</source>Currency:</msg>
-  <msg id="welcomeMessage"><source>src/app/pages/home/home.component.ts:30</source>Glad to see you again, <ph name="userFirstName"/> <ph name="userLastName"/>.</msg>
-  <msg id="homePageSEODescription" desc="Homepage description for SEO"><source>src/app/pages/home/home.component.ts:38</source>Homepage meta description</msg>
+  <msg id="textWithMarkup"><source>src/app/pages/home/home.component.html:44</source>For more information, visit the <ph name="START_LINK"/>about<ph name="CLOSE_LINK"/> page.</msg>
+  <msg id="welcomeMessage"><source>src/app/pages/home/home.component.ts:32</source>Glad to see you again, <ph name="userFirstName"/> <ph name="userLastName"/>.</msg>
+  <msg id="homePageSEODescription" desc="Homepage description for SEO"><source>src/app/pages/home/home.component.ts:40</source>Homepage meta description</msg>
   <msg id="fullPageTitle" desc="Page title including application name"><source>src/app/services/page-title.strategy.ts:15</source><ph name="pageTitle"/> | Application</msg>
   <msg id="feedbackFormTitle"><source>src/app/shared/feedback-form/feedback-form.component.html:1</source>Feedback form</msg>
   <msg id="feedbackFormLabel"><source>src/app/shared/feedback-form/feedback-form.component.html:7</source>Leave you feedback, <ph name="ICU"/> <ph name="INTERPOLATION"/></msg>
   <msg id="6514815349462835782"><source>src/app/shared/feedback-form/feedback-form.component.html:7</source>{VAR_SELECT, select, male {Mr.} female {Ms.}}</msg>
-  <msg id="submitButton"><source>src/app/shared/feedback-form/feedback-form.component.html:15</source>Submit</msg>
+  <msg id="submitButton"><source>src/app/shared/feedback-form/feedback-form.component.html:13</source>Submit</msg>
 </messagebundle>

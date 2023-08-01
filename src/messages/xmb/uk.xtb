@@ -13,6 +13,7 @@
   <translation id="dateLabel">Дата:</translation>
   <translation id="timeLabel">Час:</translation>
   <translation id="currencyLabel">Валюта:</translation>
+  <translation id="textWithMarkup">Для отримання додаткової інформації відвідайте сторінку <ph name="START_LINK"/>про нас<ph name="CLOSE_LINK"/>.</translation>
   <translation id="welcomeMessage">Раді бачити вас знову, <ph name="userFirstName"/> <ph name="userLastName"/>.</translation>
   <translation id="homePageSEODescription">Опис домашньої сторінки</translation>
   <translation id="fullPageTitle"><ph name="pageTitle"/> | Додаток</translation>
