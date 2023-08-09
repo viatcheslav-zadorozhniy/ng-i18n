@@ -12,19 +12,23 @@
 
 
 ## Benefits
-- [native support](https://angular.io/guide/i18n-overview) by the Angular team
-- ability to validate translations during CI/CD
+- native support by the Angular team
 - [ICU expressions](https://angular.io/guide/i18n-common-prepare#icu-expressions) support
+- ability to validate translations during CI/CD
 - integration with [built-in pipes](https://angular.io/api/common#pipes) ([date](https://angular.io/api/common/DatePipe), [currency](https://angular.io/api/common/CurrencyPipe), etc.)
 - smaller bundle size - translations are part of a code
+- support for markup in translation (as a translation token)
+  - throws an error in case of unexpected markup placeholders
+  - directly used tags in the translation will be securely escaped
+  - the markup is part of the template, so it's available for binding
 - flexibility
   - separate bundle for each locale
-  - single bundle with run-time translation
-  - dynamic locale change (with some conventions)
+  - or single bundle with run-time translation
+  - or even dynamic locale change (with some conventions)
 - translator-friendly
-  - supports [meta-data](https://angular.io/guide/i18n-common-prepare#i18n-metadata-for-translation) for translation units
+  - supports [meta-data](https://angular.io/guide/i18n-common-prepare#i18n-metadata-for-translation) for translation
   - supports different [file formats](https://angular.io/guide/i18n-common-translation-files#change-the-source-language-file-format) ([.arb](https://github.com/google/app-resource-bundle/wiki/ApplicationResourceBundleSpecification), [.json](https://www.json.org/json-en.html), [.xliff](http://docs.oasis-open.org/xliff/xliff-core/xliff-core.html) 1.2, [.xliff](http://docs.oasis-open.org/xliff/xliff-core/v2.0/cos01/xliff-core-v2.0-cos01.html) 2.0, [.xmb](https://cldr.unicode.org/development/development-process/design-proposals/xmb))
-  - translation can be split into several files with different formats
+  - translations can be split into several files, even with different formats
 
 
 ## How does it work?
@@ -33,12 +37,12 @@
 - marked text will be replaced with translations during the build
   - or during the bootstrap in case of runtime translation
 - [LOCALE_ID](https://angular.io/api/core/LOCALE_ID) value and locale data will be applied automatically during the build
-  - should be done manually for runtime translation
+  - or should be done manually for runtime translation
 
 
 ## Deploy multiple locales
 - after the build, each locale will have a separate instance of the app under the appropriate directory
-- deploy them all to single storage (e.g. Amazon S3)
+- deploy them all to your storage(s)
 - redirect the user to the proper route based on the `Accept-Language` header
 - routing strategies:
   - subdomain ([**en**.wikipedia.org](https://en.wikipedia.org/), [**uk**.wikipedia.org](https://uk.wikipedia.org/))
