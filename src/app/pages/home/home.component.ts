@@ -33,10 +33,10 @@ export class HomeComponent implements OnInit {
     `:@@welcomeMessage:Glad to see you again, ${this.user.firstName}:userFirstName: ${this.user.lastName}:userLastName:.`
   ;
 
-  private readonly meta = inject(Meta);
+  #meta = inject(Meta);
 
   ngOnInit(): void {
-    this.meta.updateTag({
+    this.#meta.updateTag({
       name: 'description',
       content: $localize`:Homepage description for SEO@@homePageSEODescription:Homepage meta description`,
     });

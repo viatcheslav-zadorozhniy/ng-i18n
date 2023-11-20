@@ -5,6 +5,11 @@
   <translation id="homePageSEOTitle">דף הבית</translation>
   <translation id="aboutPageSEOTitle">על אודות</translation>
   <translation id="aboutPageTitle">עלינו</translation>
+  <translation id="enumTranslatePipesTitle">צינורות לתרגום ערכים</translation>
+  <translation id="singleTranslatePipeTitle">צינור תרגום יחיד</translation>
+  <translation id="userRoleCaption">תפקיד משתמש: <ph name="START_TAG_SPAN"/><ph name="INTERPOLATION"/><ph name="CLOSE_TAG_SPAN"/></translation>
+  <translation id="userStatusCaption">סטטוס משתמש: <ph name="START_TAG_SPAN"/><ph name="INTERPOLATION"/><ph name="CLOSE_TAG_SPAN"/></translation>
+  <translation id="separateTranslatePipesTitle">צינורות תרגום נפרדים</translation>
   <translation id="aboutPageSEODescription">מידע על מטא תיאור דף</translation>
   <translation id="homePageTitle">בִּנאוּם</translation>
   <translation id="logoAlternativeText">לוגו זוויתי</translation>
@@ -21,4 +26,8 @@
   <translation id="feedbackFormLabel">השאירו משוב, <ph name="ICU"/> <ph name="INTERPOLATION"/></translation>
   <translation id="6514815349462835782">{VAR_SELECT, select, male {אדון.} female {גברת.}}</translation>
   <translation id="submitButton">שלח</translation>
+  <translation id="userRole.admin">מנהל</translation>
+  <translation id="userRole.user">מִשׁתַמֵשׁ</translation>
+  <translation id="userStatus.active">פָּעִיל</translation>
+  <translation id="userStatus.deleted">נמחק</translation>
 </translationbundle>

@@ -2,13 +2,13 @@ import { ChangeDetectionStrategy, Component, OnInit, inject } from '@angular/cor
 import { Meta } from '@angular/platform-browser';
 
 import { User } from '../../domain';
-import { FeedbackFormComponent } from '../../shared';
+import { EnumI18nPipe, FeedbackFormComponent, UserRoleI18nPipe, UserStatusI18nPipe } from '../../shared';
 
 @Component({
   standalone: true,
   templateUrl: './about.component.html',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [FeedbackFormComponent],
+  imports: [FeedbackFormComponent, EnumI18nPipe, UserRoleI18nPipe, UserStatusI18nPipe],
 })
 export class AboutComponent implements OnInit {
   readonly user: User = {
@@ -17,10 +17,10 @@ export class AboutComponent implements OnInit {
     gender: 'female',
   };
 
-  private readonly meta = inject(Meta);
-  
+  #meta = inject(Meta);
+
   ngOnInit(): void {
-    this.meta.updateTag({
+    this.#meta.updateTag({
       name: 'description',
       content: $localize`:About page description for SEO@@aboutPageSEODescription:About page meta description`,
     });

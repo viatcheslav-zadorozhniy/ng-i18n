@@ -31,6 +31,36 @@
         <target>עלינו</target>
       </segment>
     </unit>
+    <unit id="enumTranslatePipesTitle">
+      <segment state="final">
+        <source>Enum translate pipes</source>
+        <target>צינורות לתרגום ערכים</target>
+      </segment>
+    </unit>
+    <unit id="singleTranslatePipeTitle">
+      <segment state="final">
+        <source>Single translate pipe</source>
+        <target>צינור תרגום יחיד</target>
+      </segment>
+    </unit>
+    <unit id="userRoleCaption">
+      <segment state="final">
+        <source> User role: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span&gt;" dispEnd="&lt;/span&gt;"><ph id="1" equiv="INTERPOLATION" disp="{{ &apos;admin&apos; | enumI18n : &apos;userRole&apos; }}"/></pc></source>
+        <target> תפקיד משתמש: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span&gt;" dispEnd="&lt;/span&gt;"><ph id="1" equiv="INTERPOLATION" disp="{{ &apos;admin&apos; | enumI18n : &apos;userRole&apos; }}"/></pc></target>
+      </segment>
+    </unit>
+    <unit id="userStatusCaption">
+      <segment state="final">
+        <source> User status: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span&gt;" dispEnd="&lt;/span&gt;"><ph id="1" equiv="INTERPOLATION" disp="{{ &apos;active&apos; | enumI18n : &apos;userStatus&apos; }}"/></pc></source>
+        <target> סטטוס משתמש: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span&gt;" dispEnd="&lt;/span&gt;"><ph id="1" equiv="INTERPOLATION" disp="{{ &apos;active&apos; | enumI18n : &apos;userStatus&apos; }}"/></pc></target>
+      </segment>
+    </unit>
+    <unit id="separateTranslatePipesTitle">
+      <segment state="final">
+        <source>Separate translate pipes</source>
+        <target>צינורות תרגום נפרדים</target>
+      </segment>
+    </unit>
     <unit id="aboutPageSEODescription">
       <segment state="final">
         <source>About page meta description</source>
@@ -125,6 +155,30 @@
       <segment state="final">
         <source>Submit</source>
         <target>שלח</target>
+      </segment>
+    </unit>
+    <unit id="userRole.admin">
+      <segment state="final">
+        <source>admin</source>
+        <target>מנהל</target>
+      </segment>
+    </unit>
+    <unit id="userRole.user">
+      <segment state="final">
+        <source>user</source>
+        <target>מִשׁתַמֵשׁ</target>
+      </segment>
+    </unit>
+    <unit id="userStatus.active">
+      <segment state="final">
+        <source>active</source>
+        <target>פָּעִיל</target>
+      </segment>
+    </unit>
+    <unit id="userStatus.deleted">
+      <segment state="final">
+        <source>deleted</source>
+        <target>נמחק</target>
       </segment>
     </unit>
   </file>

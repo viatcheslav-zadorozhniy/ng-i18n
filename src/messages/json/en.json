@@ -6,6 +6,11 @@
     "homePageSEOTitle": "Homepage",
     "aboutPageSEOTitle": "About",
     "aboutPageTitle": "About us",
+    "enumTranslatePipesTitle": "Enum translate pipes",
+    "singleTranslatePipeTitle": "Single translate pipe",
+    "userRoleCaption": " User role: {$START_TAG_SPAN}{$INTERPOLATION}{$CLOSE_TAG_SPAN}",
+    "userStatusCaption": " User status: {$START_TAG_SPAN}{$INTERPOLATION}{$CLOSE_TAG_SPAN}",
+    "separateTranslatePipesTitle": "Separate translate pipes",
     "aboutPageSEODescription": "About page meta description",
     "homePageTitle": "Internationalization",
     "logoAlternativeText": "Angular logo",
@@ -21,6 +26,10 @@
     "feedbackFormTitle": "Feedback form",
     "feedbackFormLabel": "Leave you feedback, {$ICU} {$INTERPOLATION}",
     "6514815349462835782": "{VAR_SELECT, select, male {Mr.} female {Ms.}}",
-    "submitButton": "Submit"
+    "submitButton": "Submit",
+    "userRole.admin": "admin",
+    "userRole.user": "user",
+    "userStatus.active": "active",
+    "userStatus.deleted": "deleted"
   }
 }

@@ -26,6 +26,11 @@
   <msg id="homePageSEOTitle" desc="Homepage title for SEO"><source>src/app/app.routes.ts:10</source>Homepage</msg>
   <msg id="aboutPageSEOTitle" desc="About page title for SEO"><source>src/app/app.routes.ts:15</source>About</msg>
   <msg id="aboutPageTitle"><source>src/app/pages/about/about.component.html:0</source>About us</msg>
+  <msg id="enumTranslatePipesTitle"><source>src/app/pages/about/about.component.html:5</source>Enum translate pipes</msg>
+  <msg id="singleTranslatePipeTitle"><source>src/app/pages/about/about.component.html:7</source>Single translate pipe</msg>
+  <msg id="userRoleCaption"><source>src/app/pages/about/about.component.html:9,11</source> User role: <ph name="START_TAG_SPAN"/><ph name="INTERPOLATION"/><ph name="CLOSE_TAG_SPAN"/></msg>
+  <msg id="userStatusCaption"><source>src/app/pages/about/about.component.html:12,14</source> User status: <ph name="START_TAG_SPAN"/><ph name="INTERPOLATION"/><ph name="CLOSE_TAG_SPAN"/></msg>
+  <msg id="separateTranslatePipesTitle"><source>src/app/pages/about/about.component.html:17</source>Separate translate pipes</msg>
   <msg id="aboutPageSEODescription" desc="About page description for SEO"><source>src/app/pages/about/about.component.ts:24</source>About page meta description</msg>
   <msg id="homePageTitle" desc="Homepage title" meaning="An introduction header of the application"><source>src/app/pages/home/home.component.html:2</source>Internationalization</msg>
   <msg id="logoAlternativeText"><source>src/app/pages/home/home.component.html:11</source>Angular logo</msg>
@@ -42,4 +47,8 @@
   <msg id="feedbackFormLabel"><source>src/app/shared/feedback-form/feedback-form.component.html:7</source>Leave you feedback, <ph name="ICU"/> <ph name="INTERPOLATION"/></msg>
   <msg id="6514815349462835782"><source>src/app/shared/feedback-form/feedback-form.component.html:7</source>{VAR_SELECT, select, male {Mr.} female {Ms.}}</msg>
   <msg id="submitButton"><source>src/app/shared/feedback-form/feedback-form.component.html:13</source>Submit</msg>
+  <msg id="userRole.admin"><source>src/app/shared/pipes/i18n/enum-i18n/translations.const.ts:10</source>admin</msg>
+  <msg id="userRole.user"><source>src/app/shared/pipes/i18n/enum-i18n/translations.const.ts:11</source>user</msg>
+  <msg id="userStatus.active"><source>src/app/shared/pipes/i18n/enum-i18n/translations.const.ts:14</source>active</msg>
+  <msg id="userStatus.deleted"><source>src/app/shared/pipes/i18n/enum-i18n/translations.const.ts:15</source>deleted</msg>
 </messagebundle>

@@ -5,6 +5,11 @@
   "homePageSEOTitle": "Домашня сторінка",
   "aboutPageSEOTitle": "Про нас",
   "aboutPageTitle": "Про нас",
+  "enumTranslatePipesTitle": "Пайпи для перекладу енамів",
+  "singleTranslatePipeTitle": "Один пайп перекладу",
+  "userRoleCaption": " Роль користувача: {$START_TAG_SPAN}{$INTERPOLATION}{$CLOSE_TAG_SPAN}",
+  "userStatusCaption": " Статус користувача: {$START_TAG_SPAN}{$INTERPOLATION}{$CLOSE_TAG_SPAN}",
+  "separateTranslatePipesTitle": "Окремі пайпи перекладу",
   "aboutPageSEODescription": "Опис сторінки про нас",
   "homePageTitle": "Інтернаціоналізація",
   "logoAlternativeText": "Логотип Angular",
@@ -20,5 +25,9 @@
   "feedbackFormTitle": "Форма зворотнього зв'язку",
   "feedbackFormLabel": "Залиште ваш відгук, {$ICU} {$INTERPOLATION}",
   "6514815349462835782": "{VAR_SELECT, select, male {пане} female {пані}}",
-  "submitButton": "Надіслати"
+  "submitButton": "Надіслати",
+  "userRole.admin": "адмін",
+  "userRole.user": "користувач",
+  "userStatus.active": "активний",
+  "userStatus.deleted": "видалений"
 }

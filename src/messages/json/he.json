@@ -6,6 +6,11 @@
     "homePageSEOTitle": "דף הבית",
     "aboutPageSEOTitle": "על אודות",
     "aboutPageTitle": "עלינו",
+    "enumTranslatePipesTitle": "צינורות לתרגום ערכים",
+    "singleTranslatePipeTitle": "צינור תרגום יחיד",
+    "userRoleCaption": " תפקיד משתמש: {$START_TAG_SPAN}{$INTERPOLATION}{$CLOSE_TAG_SPAN}",
+    "userStatusCaption": " סטטוס משתמש: {$START_TAG_SPAN}{$INTERPOLATION}{$CLOSE_TAG_SPAN}",
+    "separateTranslatePipesTitle": "צינורות תרגום נפרדים",
     "aboutPageSEODescription": "מידע על מטא תיאור דף",
     "homePageTitle": "בִּנאוּם",
     "logoAlternativeText": "לוגו זוויתי",
@@ -21,6 +26,10 @@
     "feedbackFormTitle": "טופס משוב",
     "feedbackFormLabel": "השאירו משוב, {$ICU} {$INTERPOLATION}",
     "6514815349462835782": "{VAR_SELECT, select, male {אדון.} female {גברת.}}",
-    "submitButton": "שלח"
+    "submitButton": "שלח",
+    "userRole.admin": "מנהל",
+    "userRole.user": "מִשׁתַמֵשׁ",
+    "userStatus.active": "פָּעִיל",
+    "userStatus.deleted": "נמחק"
   }
 }

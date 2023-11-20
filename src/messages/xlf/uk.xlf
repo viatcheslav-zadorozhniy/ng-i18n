@@ -24,6 +24,26 @@
         <source>About us</source>
         <target state="final">Про нас</target>
       </trans-unit>
+      <trans-unit id="enumTranslatePipesTitle" datatype="html">
+        <source>Enum translate pipes</source>
+        <target state="final">Пайпи для перекладу енамів</target>
+      </trans-unit>
+      <trans-unit id="singleTranslatePipeTitle" datatype="html">
+        <source>Single translate pipe</source>
+        <target state="final">Один пайп перекладу</target>
+      </trans-unit>
+      <trans-unit id="userRoleCaption" datatype="html">
+        <source> User role: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ &apos;admin&apos; | enumI18n : &apos;userRole&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target state="final"> Роль користувача: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ &apos;admin&apos; | enumI18n : &apos;userRole&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+      </trans-unit>
+      <trans-unit id="userStatusCaption" datatype="html">
+        <source> User status: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ &apos;active&apos; | enumI18n : &apos;userStatus&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target state="final"> Статус користувача: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ &apos;active&apos; | enumI18n : &apos;userStatus&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+      </trans-unit>
+      <trans-unit id="separateTranslatePipesTitle" datatype="html">
+        <source>Separate translate pipes</source>
+        <target state="final">Окремі пайпи перекладу</target>
+      </trans-unit>
       <trans-unit id="aboutPageSEODescription" datatype="html">
         <source>About page meta description</source>
         <target state="final">Опис сторінки про нас</target>
@@ -95,6 +115,22 @@
       <trans-unit id="submitButton" datatype="html">
         <source>Submit</source>
         <target state="final">Надіслати</target>
+      </trans-unit>
+      <trans-unit id="userRole.admin" datatype="html">
+        <source>admin</source>
+        <target state="final">адмін</target>
+      </trans-unit>
+      <trans-unit id="userRole.user" datatype="html">
+        <source>user</source>
+        <target state="final">користувач</target>
+      </trans-unit>
+      <trans-unit id="userStatus.active" datatype="html">
+        <source>active</source>
+        <target state="final">активний</target>
+      </trans-unit>
+      <trans-unit id="userStatus.deleted" datatype="html">
+        <source>deleted</source>
+        <target state="final">видалений</target>
       </trans-unit>
     </body>
   </file>

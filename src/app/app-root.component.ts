@@ -30,15 +30,15 @@ export class AppRootComponent {
     { id: 'uk', label: 'Українська' },
   ];
 
-  private readonly jitTranslation = inject(JIT_TRANSLATION);
-  private readonly platformLocation = inject(PlatformLocation);
+  #jitTranslation = inject(JIT_TRANSLATION);
+  #platformLocation = inject(PlatformLocation);
 
   handleLocaleChange(localeId: Locale): void {
-    if (this.jitTranslation) {
+    if (this.#jitTranslation) {
       localStorage.setItem(localeStorageKey, localeId);
       location.reload();
     } else {
-      const baseHref = this.platformLocation.getBaseHrefFromDOM();
+      const baseHref = this.#platformLocation.getBaseHrefFromDOM();
       location.href = location.href.replace(baseHref, `/${localeId}/`);
     }
   }

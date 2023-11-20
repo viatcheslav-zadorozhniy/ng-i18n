@@ -5,6 +5,11 @@
   <translation id="homePageSEOTitle">Домашня сторінка</translation>
   <translation id="aboutPageSEOTitle">Про нас</translation>
   <translation id="aboutPageTitle">Про нас</translation>
+  <translation id="enumTranslatePipesTitle">Пайпи для перекладу енамів</translation>
+  <translation id="singleTranslatePipeTitle">Один пайп перекладу</translation>
+  <translation id="userRoleCaption">Роль користувача: <ph name="START_TAG_SPAN"/><ph name="INTERPOLATION"/><ph name="CLOSE_TAG_SPAN"/></translation>
+  <translation id="userStatusCaption">Статус користувача: <ph name="START_TAG_SPAN"/><ph name="INTERPOLATION"/><ph name="CLOSE_TAG_SPAN"/></translation>
+  <translation id="separateTranslatePipesTitle">Окремі пайпи перекладу</translation>
   <translation id="aboutPageSEODescription">Опис сторінки про нас</translation>
   <translation id="homePageTitle">Інтернаціоналізація</translation>
   <translation id="logoAlternativeText">Логотип Angular</translation>
@@ -21,4 +26,8 @@
   <translation id="feedbackFormLabel">Залиште ваш відгук, <ph name="ICU"/> <ph name="INTERPOLATION"/></translation>
   <translation id="6514815349462835782">{VAR_SELECT, select, male {пане} female {пані}}</translation>
   <translation id="submitButton">Надіслати</translation>
+  <translation id="userRole.admin">адмін</translation>
+  <translation id="userRole.user">користувач</translation>
+  <translation id="userStatus.active">активний</translation>
+  <translation id="userStatus.deleted">видалений</translation>
 </translationbundle>

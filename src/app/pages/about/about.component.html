@@ -1,3 +1,27 @@
 <h1 i18n="@@aboutPageTitle">About us</h1>
 
 <app-feedback-form [user]="user"></app-feedback-form>
+
+<section class="mt-4">
+  <h2 i18n="@@enumTranslatePipesTitle">Enum translate pipes</h2>
+
+  <h3 i18n="@@singleTranslatePipeTitle" class="mb-2">Single translate pipe</h3>
+  <ul>
+    <li i18n="@@userRoleCaption">
+      User role: <span>{{ 'admin' | enumI18n : 'userRole' }}</span>
+    </li>
+    <li i18n="@@userStatusCaption">
+      User status: <span>{{ 'active' | enumI18n : 'userStatus' }}</span>
+    </li>
+  </ul>
+
+  <h3 i18n="@@separateTranslatePipesTitle" class="mb-2">Separate translate pipes</h3>
+  <ul>
+    <li i18n="@@userRoleCaption">
+      User role: <span>{{ 'admin' | userRoleI18n }}</span>
+    </li>
+    <li i18n="@@userStatusCaption">
+      User status: <span>{{ 'active' | userStatusI18n }}</span>
+    </li>
+  </ul>
+</section>

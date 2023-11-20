@@ -43,6 +43,48 @@
         <source>About us</source>
       </segment>
     </unit>
+    <unit id="enumTranslatePipesTitle">
+      <notes>
+        <note category="location">src/app/pages/about/about.component.html:6</note>
+      </notes>
+      <segment>
+        <source>Enum translate pipes</source>
+      </segment>
+    </unit>
+    <unit id="singleTranslatePipeTitle">
+      <notes>
+        <note category="location">src/app/pages/about/about.component.html:8</note>
+      </notes>
+      <segment>
+        <source>Single translate pipe</source>
+      </segment>
+    </unit>
+    <unit id="userRoleCaption">
+      <notes>
+        <note category="location">src/app/pages/about/about.component.html:10,11</note>
+        <note category="location">src/app/pages/about/about.component.html:20,21</note>
+      </notes>
+      <segment>
+        <source> User role: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span&gt;" dispEnd="&lt;/span&gt;"><ph id="1" equiv="INTERPOLATION" disp="{{ &apos;admin&apos; | enumI18n : &apos;userRole&apos; }}"/></pc></source>
+      </segment>
+    </unit>
+    <unit id="userStatusCaption">
+      <notes>
+        <note category="location">src/app/pages/about/about.component.html:13,14</note>
+        <note category="location">src/app/pages/about/about.component.html:23,24</note>
+      </notes>
+      <segment>
+        <source> User status: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span&gt;" dispEnd="&lt;/span&gt;"><ph id="1" equiv="INTERPOLATION" disp="{{ &apos;active&apos; | enumI18n : &apos;userStatus&apos; }}"/></pc></source>
+      </segment>
+    </unit>
+    <unit id="separateTranslatePipesTitle">
+      <notes>
+        <note category="location">src/app/pages/about/about.component.html:18</note>
+      </notes>
+      <segment>
+        <source>Separate translate pipes</source>
+      </segment>
+    </unit>
     <unit id="aboutPageSEODescription">
       <notes>
         <note category="location">src/app/pages/about/about.component.ts:25</note>
@@ -177,6 +219,42 @@
       </notes>
       <segment>
         <source>Submit</source>
+      </segment>
+    </unit>
+    <unit id="userRole.admin">
+      <notes>
+        <note category="location">src/app/shared/pipes/i18n/enum-i18n/translations.const.ts:11</note>
+        <note category="location">src/app/shared/pipes/i18n/user-role-i18n/user-role-i18n.pipe.ts:6</note>
+      </notes>
+      <segment>
+        <source>admin</source>
+      </segment>
+    </unit>
+    <unit id="userRole.user">
+      <notes>
+        <note category="location">src/app/shared/pipes/i18n/enum-i18n/translations.const.ts:12</note>
+        <note category="location">src/app/shared/pipes/i18n/user-role-i18n/user-role-i18n.pipe.ts:7</note>
+      </notes>
+      <segment>
+        <source>user</source>
+      </segment>
+    </unit>
+    <unit id="userStatus.active">
+      <notes>
+        <note category="location">src/app/shared/pipes/i18n/enum-i18n/translations.const.ts:15</note>
+        <note category="location">src/app/shared/pipes/i18n/user-status-i18n/user-status-i18n.pipe.ts:6</note>
+      </notes>
+      <segment>
+        <source>active</source>
+      </segment>
+    </unit>
+    <unit id="userStatus.deleted">
+      <notes>
+        <note category="location">src/app/shared/pipes/i18n/enum-i18n/translations.const.ts:16</note>
+        <note category="location">src/app/shared/pipes/i18n/user-status-i18n/user-status-i18n.pipe.ts:7</note>
+      </notes>
+      <segment>
+        <source>deleted</source>
       </segment>
     </unit>
   </file>

@@ -7,6 +7,10 @@
     "feedbackFormTitle": "Форма зворотнього зв'язку",
     "feedbackFormLabel": "Залиште ваш відгук, {$ICU} {$INTERPOLATION}",
     "6514815349462835782": "{VAR_SELECT, select, male {пане} female {пані}}",
-    "submitButton": "Надіслати"
+    "submitButton": "Надіслати",
+    "userRole.admin": "адмін",
+    "userRole.user": "користувач",
+    "userStatus.active": "активний",
+    "userStatus.deleted": "видалений"
   }
 }
