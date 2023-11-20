@@ -9,5 +9,5 @@ import { User } from '../../domain';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class FeedbackFormComponent {
-  @Input() user!: User;
+  @Input({ required: true }) user!: User;
 }

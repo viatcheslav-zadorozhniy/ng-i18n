@@ -1,4 +1,4 @@
-import { NgFor, PlatformLocation } from '@angular/common';
+import { PlatformLocation } from '@angular/common';
 import { ChangeDetectionStrategy, Component, InjectionToken, LOCALE_ID, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
@@ -15,7 +15,6 @@ export const JIT_TRANSLATION = new InjectionToken<boolean>('JIT_TRANSLATION');
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [
     FormsModule,
-    NgFor,
     RouterLink,
     RouterLinkActive,
     RouterOutlet,

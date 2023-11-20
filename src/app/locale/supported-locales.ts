@@ -1,4 +1,4 @@
-export const supportedLocales = [
+export const SUPPORTED_LOCALES = [
   'en',
   'he',
   'uk',

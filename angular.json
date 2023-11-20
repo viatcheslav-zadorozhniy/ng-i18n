@@ -114,16 +114,16 @@
           },
           "configurations": {
             "en": {
-              "browserTarget": "app:build:en"
+              "buildTarget": "app:build:en"
             },
             "he": {
-              "browserTarget": "app:build:he"
+              "buildTarget": "app:build:he"
             },
             "uk": {
-              "browserTarget": "app:build:uk"
+              "buildTarget": "app:build:uk"
             },
             "jit": {
-              "browserTarget": "app:build:jit"
+              "buildTarget": "app:build:jit"
             }
           },
           "defaultConfiguration": "en"
@@ -131,7 +131,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "app:build"
+            "buildTarget": "app:build"
           },
           "configurations": {
             "arb": {

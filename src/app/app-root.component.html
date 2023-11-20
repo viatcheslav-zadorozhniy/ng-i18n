@@ -15,11 +15,11 @@
   </nav>
 
   <select [ngModel]="currentLocaleId" (ngModelChange)="handleLocaleChange($event)">
-    <option
-      *ngFor="let locale of locales"
-      [selected]="locale.id === currentLocaleId"
-      [value]="locale.id"
-    >{{ locale.label }}</option>
+    @for (locale of locales; track locale.id) {
+      <option [selected]="locale.id === currentLocaleId" [value]="locale.id">
+        {{ locale.label }}
+      </option>
+    }
   </select>
 </header>
 
