@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
+  <file id="ngi18n" original="ng.template">
+    <unit id="menuItemHome">
+      <notes>
+        <note category="location">src/app/app-root.component.html:8</note>
+      </notes>
+      <segment>
+        <source>Home</source>
+      </segment>
+    </unit>
+    <unit id="menuItemAbout">
+      <notes>
+        <note category="location">src/app/app-root.component.html:14</note>
+      </notes>
+      <segment>
+        <source>About</source>
+      </segment>
+    </unit>
+    <unit id="homePageSEOTitle">
+      <notes>
+        <note category="location">src/app/app.routes.ts:11</note>
+        <note category="description">Homepage title for SEO</note>
+      </notes>
+      <segment>
+        <source>Homepage</source>
+      </segment>
+    </unit>
+    <unit id="aboutPageSEOTitle">
+      <notes>
+        <note category="location">src/app/app.routes.ts:16</note>
+        <note category="description">About page title for SEO</note>
+      </notes>
+      <segment>
+        <source>About</source>
+      </segment>
+    </unit>
+    <unit id="aboutPageTitle">
+      <notes>
+        <note category="location">src/app/pages/about/about.component.html:1</note>
+      </notes>
+      <segment>
+        <source>About us</source>
+      </segment>
+    </unit>
+    <unit id="enumTranslatePipesTitle">
+      <notes>
+        <note category="location">src/app/pages/about/about.component.html:6</note>
+      </notes>
+      <segment>
+        <source>Enum translate pipes</source>
+      </segment>
+    </unit>
+    <unit id="singleTranslatePipeTitle">
+      <notes>
+        <note category="location">src/app/pages/about/about.component.html:8</note>
+      </notes>
+      <segment>
+        <source>Single translate pipe</source>
+      </segment>
+    </unit>
+    <unit id="userRoleCaption">
+      <notes>
+        <note category="location">src/app/pages/about/about.component.html:10,11</note>
+        <note category="location">src/app/pages/about/about.component.html:20,21</note>
+      </notes>
+      <segment>
+        <source> User role: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span&gt;" dispEnd="&lt;/span&gt;"><ph id="1" equiv="INTERPOLATION" disp="{{ &apos;admin&apos; | enumI18n : &apos;userRole&apos; }}"/></pc></source>
+      </segment>
+    </unit>
+    <unit id="userStatusCaption">
+      <notes>
+        <note category="location">src/app/pages/about/about.component.html:13,14</note>
+        <note category="location">src/app/pages/about/about.component.html:23,24</note>
+      </notes>
+      <segment>
+        <source> User status: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span&gt;" dispEnd="&lt;/span&gt;"><ph id="1" equiv="INTERPOLATION" disp="{{ &apos;active&apos; | enumI18n : &apos;userStatus&apos; }}"/></pc></source>
+      </segment>
+    </unit>
+    <unit id="separateTranslatePipesTitle">
+      <notes>
+        <note category="location">src/app/pages/about/about.component.html:18</note>
+      </notes>
+      <segment>
+        <source>Separate translate pipes</source>
+      </segment>
+    </unit>
+    <unit id="aboutPageSEODescription">
+      <notes>
+        <note category="location">src/app/pages/about/about.component.ts:25</note>
+        <note category="description">About page description for SEO</note>
+      </notes>
+      <segment>
+        <source>About page meta description</source>
+      </segment>
+    </unit>
+    <unit id="homePageTitle">
+      <notes>
+        <note category="location">src/app/pages/home/home.component.html:3</note>
+        <note category="description">Homepage title</note>
+        <note category="meaning">An introduction header of the application</note>
+      </notes>
+      <segment>
+        <source>Internationalization</source>
+      </segment>
+    </unit>
+    <unit id="logoAlternativeText">
+      <notes>
+        <note category="location">src/app/pages/home/home.component.html:12</note>
+      </notes>
+      <segment>
+        <source>Angular logo</source>
+      </segment>
+    </unit>
+    <unit id="textWithoutAnElement">
+      <notes>
+        <note category="location">src/app/pages/home/home.component.html:20</note>
+      </notes>
+      <segment>
+        <source>Text without an element.</source>
+      </segment>
+    </unit>
+    <unit id="builtInPipesTitle">
+      <notes>
+        <note category="location">src/app/pages/home/home.component.html:26</note>
+      </notes>
+      <segment>
+        <source>Built-in pipes</source>
+      </segment>
+    </unit>
+    <unit id="dateLabel">
+      <notes>
+        <note category="location">src/app/pages/home/home.component.html:30</note>
+        <note category="description">Date label</note>
+      </notes>
+      <segment>
+        <source>Date:</source>
+      </segment>
+    </unit>
+    <unit id="timeLabel">
+      <notes>
+        <note category="location">src/app/pages/home/home.component.html:34</note>
+        <note category="description">Time label</note>
+      </notes>
+      <segment>
+        <source>Time:</source>
+      </segment>
+    </unit>
+    <unit id="currencyLabel">
+      <notes>
+        <note category="location">src/app/pages/home/home.component.html:38</note>
+        <note category="description">Currency label</note>
+      </notes>
+      <segment>
+        <source>Currency:</source>
+      </segment>
+    </unit>
+    <unit id="textWithMarkup">
+      <notes>
+        <note category="location">src/app/pages/home/home.component.html:45</note>
+      </notes>
+      <segment>
+        <source>For more information, visit the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;&apos;/about&apos;&quot;&gt;" dispEnd="&lt;/a&gt;">about</pc> page.</source>
+      </segment>
+    </unit>
+    <unit id="welcomeMessage">
+      <notes>
+        <note category="location">src/app/pages/home/home.component.ts:33</note>
+      </notes>
+      <segment>
+        <source>Glad to see you again, <ph id="0" equiv="userFirstName" disp="this.user.firstName"/> <ph id="1" equiv="userLastName" disp="this.user.lastName"/>.</source>
+      </segment>
+    </unit>
+    <unit id="homePageSEODescription">
+      <notes>
+        <note category="location">src/app/pages/home/home.component.ts:41</note>
+        <note category="description">Homepage description for SEO</note>
+      </notes>
+      <segment>
+        <source>Homepage meta description</source>
+      </segment>
+    </unit>
+    <unit id="fullPageTitle">
+      <notes>
+        <note category="location">src/app/services/page-title.strategy.ts:16</note>
+        <note category="description">Page title including application name</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="pageTitle" disp="title"/> | Application</source>
+      </segment>
+    </unit>
+    <unit id="feedbackFormTitle">
+      <notes>
+        <note category="location">src/app/shared/feedback-form/feedback-form.component.html:2</note>
+      </notes>
+      <segment>
+        <source>Feedback form</source>
+      </segment>
+    </unit>
+    <unit id="feedbackFormLabel">
+      <notes>
+        <note category="location">src/app/shared/feedback-form/feedback-form.component.html:8</note>
+      </notes>
+      <segment>
+        <source>Leave you feedback, <ph id="0" equiv="ICU" disp="{user.gender, select, male {Mr.} female {Ms.}}" subFlows="6514815349462835782"/> <ph id="1" equiv="INTERPOLATION" disp="{{ user.firstName }}"/></source>
+      </segment>
+    </unit>
+    <unit id="6514815349462835782">
+      <notes>
+        <note category="location">src/app/shared/feedback-form/feedback-form.component.html:8</note>
+      </notes>
+      <segment>
+        <source>{VAR_SELECT, select, male {Mr.} female {Ms.}}</source>
+      </segment>
+    </unit>
+    <unit id="submitButton">
+      <notes>
+        <note category="location">src/app/shared/feedback-form/feedback-form.component.html:14</note>
+      </notes>
+      <segment>
+        <source>Submit</source>
+      </segment>
+    </unit>
+    <unit id="userRole.admin">
+      <notes>
+        <note category="location">src/app/shared/pipes/i18n/enum-i18n/translations.const.ts:11</note>
+        <note category="location">src/app/shared/pipes/i18n/user-role-i18n/user-role-i18n.pipe.ts:6</note>
+      </notes>
+      <segment>
+        <source>admin</source>
+      </segment>
+    </unit>
+    <unit id="userRole.user">
+      <notes>
+        <note category="location">src/app/shared/pipes/i18n/enum-i18n/translations.const.ts:12</note>
+        <note category="location">src/app/shared/pipes/i18n/user-role-i18n/user-role-i18n.pipe.ts:7</note>
+      </notes>
+      <segment>
+        <source>user</source>
+      </segment>
+    </unit>
+    <unit id="userStatus.active">
+      <notes>
+        <note category="location">src/app/shared/pipes/i18n/enum-i18n/translations.const.ts:15</note>
+        <note category="location">src/app/shared/pipes/i18n/user-status-i18n/user-status-i18n.pipe.ts:6</note>
+      </notes>
+      <segment>
+        <source>active</source>
+      </segment>
+    </unit>
+    <unit id="userStatus.deleted">
+      <notes>
+        <note category="location">src/app/shared/pipes/i18n/enum-i18n/translations.const.ts:16</note>
+        <note category="location">src/app/shared/pipes/i18n/user-status-i18n/user-status-i18n.pipe.ts:7</note>
+      </notes>
+      <segment>
+        <source>deleted</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

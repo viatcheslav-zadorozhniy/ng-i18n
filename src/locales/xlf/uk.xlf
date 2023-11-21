@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="uk">
+    <body>
+      <trans-unit id="menuItemHome" datatype="html">
+        <source>Home</source>
+        <target state="final">Домашня</target>
+      </trans-unit>
+      <trans-unit id="menuItemAbout" datatype="html">
+        <source>About</source>
+        <target state="final">Про нас</target>
+      </trans-unit>
+      <trans-unit id="homePageSEOTitle" datatype="html">
+        <source>Homepage</source>
+        <target state="final">Домашня сторінка</target>
+        <note priority="1" from="description">Homepage title for SEO</note>
+      </trans-unit>
+      <trans-unit id="aboutPageSEOTitle" datatype="html">
+        <source>About</source>
+        <target state="final">Про нас</target>
+        <note priority="1" from="description">About page title for SEO</note>
+      </trans-unit>
+      <trans-unit id="aboutPageTitle" datatype="html">
+        <source>About us</source>
+        <target state="final">Про нас</target>
+      </trans-unit>
+      <trans-unit id="enumTranslatePipesTitle" datatype="html">
+        <source>Enum translate pipes</source>
+        <target state="final">Пайпи для перекладу енамів</target>
+      </trans-unit>
+      <trans-unit id="singleTranslatePipeTitle" datatype="html">
+        <source>Single translate pipe</source>
+        <target state="final">Один пайп перекладу</target>
+      </trans-unit>
+      <trans-unit id="userRoleCaption" datatype="html">
+        <source> User role: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ &apos;admin&apos; | enumI18n : &apos;userRole&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target state="final"> Роль користувача: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ &apos;admin&apos; | enumI18n : &apos;userRole&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+      </trans-unit>
+      <trans-unit id="userStatusCaption" datatype="html">
+        <source> User status: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ &apos;active&apos; | enumI18n : &apos;userStatus&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target state="final"> Статус користувача: <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/><x id="INTERPOLATION" equiv-text="{{ &apos;active&apos; | enumI18n : &apos;userStatus&apos; }}"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+      </trans-unit>
+      <trans-unit id="separateTranslatePipesTitle" datatype="html">
+        <source>Separate translate pipes</source>
+        <target state="final">Окремі пайпи перекладу</target>
+      </trans-unit>
+      <trans-unit id="aboutPageSEODescription" datatype="html">
+        <source>About page meta description</source>
+        <target state="final">Опис сторінки про нас</target>
+        <note priority="1" from="description">About page description for SEO</note>
+      </trans-unit>
+      <trans-unit id="homePageTitle" datatype="html">
+        <source>Internationalization</source>
+        <target state="final">Інтернаціоналізація</target>
+        <note priority="1" from="description">Homepage title</note>
+        <note priority="1" from="meaning">An introduction header of the application</note>
+      </trans-unit>
+      <trans-unit id="logoAlternativeText" datatype="html">
+        <source>Angular logo</source>
+        <target state="final">Логотип Angular</target>
+      </trans-unit>
+      <trans-unit id="textWithoutAnElement" datatype="html">
+        <source>Text without an element.</source>
+        <target state="final">Текст без елемента.</target>
+      </trans-unit>
+      <trans-unit id="builtInPipesTitle" datatype="html">
+        <source>Built-in pipes</source>
+        <target state="final">Вбудовані пайпи</target>
+      </trans-unit>
+      <trans-unit id="dateLabel" datatype="html">
+        <source>Date:</source>
+        <target state="final">Дата:</target>
+        <note priority="1" from="description">Date label</note>
+      </trans-unit>
+      <trans-unit id="timeLabel" datatype="html">
+        <source>Time:</source>
+        <target state="final">Час:</target>
+        <note priority="1" from="description">Time label</note>
+      </trans-unit>
+      <trans-unit id="currencyLabel" datatype="html">
+        <source>Currency:</source>
+        <target state="final">Валюта:</target>
+        <note priority="1" from="description">Currency label</note>
+      </trans-unit>
+      <trans-unit id="textWithMarkup" datatype="html">
+        <source>For more information, visit the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;&apos;/about&apos;&quot;&gt;"/>about<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> page.</source>
+        <target state="final">Для отримання додаткової інформації відвідайте сторінку <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;&apos;/about&apos;&quot;&gt;"/>про нас<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</target>
+      </trans-unit>
+      <trans-unit id="welcomeMessage" datatype="html">
+        <source>Glad to see you again, <x id="userFirstName" equiv-text="this.user.firstName"/> <x id="userLastName" equiv-text="this.user.lastName"/>.</source>
+        <target state="final">Раді бачити вас знову, <x id="userFirstName" equiv-text="this.user.firstName"/> <x id="userLastName" equiv-text="this.user.lastName"/>.</target>
+      </trans-unit>
+      <trans-unit id="homePageSEODescription" datatype="html">
+        <source>Homepage meta description</source>
+        <target state="final">Опис домашньої сторінки</target>
+        <note priority="1" from="description">Homepage description for SEO</note>
+      </trans-unit>
+      <trans-unit id="fullPageTitle" datatype="html">
+        <source><x id="pageTitle" equiv-text="title"/> | Application</source>
+        <target state="final"><x id="pageTitle" equiv-text="title"/> | Додаток</target>
+        <note priority="1" from="description">Page title including application name</note>
+      </trans-unit>
+      <trans-unit id="feedbackFormTitle" datatype="html">
+        <source>Feedback form</source>
+        <target state="final">Форма зворотнього зв&apos;язку</target>
+      </trans-unit>
+      <trans-unit id="feedbackFormLabel" datatype="html">
+        <source>Leave you feedback, <x id="ICU" equiv-text="{user.gender, select, male {Mr.} female {Ms.}}" xid="6514815349462835782"/> <x id="INTERPOLATION" equiv-text="{{ user.firstName }}"/></source>
+        <target state="final">Залиште ваш відгук, <x id="ICU" equiv-text="{user.gender, select, male {Mr.} female {Ms.}}" xid="6514815349462835782"/> <x id="INTERPOLATION" equiv-text="{{ user.firstName }}"/></target>
+      </trans-unit>
+      <trans-unit id="6514815349462835782" datatype="html">
+        <source>{VAR_SELECT, select, male {Mr.} female {Ms.}}</source>
+        <target state="final">{VAR_SELECT, select, male {пане} female {пані}}</target>
+      </trans-unit>
+      <trans-unit id="submitButton" datatype="html">
+        <source>Submit</source>
+        <target state="final">Надіслати</target>
+      </trans-unit>
+      <trans-unit id="userRole.admin" datatype="html">
+        <source>admin</source>
+        <target state="final">адмін</target>
+      </trans-unit>
+      <trans-unit id="userRole.user" datatype="html">
+        <source>user</source>
+        <target state="final">користувач</target>
+      </trans-unit>
+      <trans-unit id="userStatus.active" datatype="html">
+        <source>active</source>
+        <target state="final">активний</target>
+      </trans-unit>
+      <trans-unit id="userStatus.deleted" datatype="html">
+        <source>deleted</source>
+        <target state="final">видалений</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

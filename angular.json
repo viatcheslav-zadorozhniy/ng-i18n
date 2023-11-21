@@ -22,14 +22,14 @@
         },
         "locales": {
           "he": {
-            "translation": "src/messages/xlf2/he.xlf",
+            "translation": "src/locales/xlf2/he.xlf",
             "baseHref": "/he/"
           },
           "uk": {
             "translation": [
-              "src/messages/json/uk/common.json",
-              "src/messages/json/uk/home-page.json",
-              "src/messages/json/uk/about-page.json"
+              "src/locales/json/uk/common.json",
+              "src/locales/json/uk/home-page.json",
+              "src/locales/json/uk/about-page.json"
             ],
             "baseHref": "/uk/"
           }
@@ -137,27 +137,27 @@
             "arb": {
               "format": "arb",
               "outFile": "en.arb",
-              "outputPath": "src/messages/arb"
+              "outputPath": "src/locales/arb"
             },
             "json": {
               "format": "json",
               "outFile": "en.json",
-              "outputPath": "src/messages/json"
+              "outputPath": "src/locales/json"
             },
             "xlf": {
               "format": "xlf",
               "outFile": "en.xlf",
-              "outputPath": "src/messages/xlf"
+              "outputPath": "src/locales/xlf"
             },
             "xlf2": {
               "format": "xlf2",
               "outFile": "en.xlf",
-              "outputPath": "src/messages/xlf2"
+              "outputPath": "src/locales/xlf2"
             },
             "xmb": {
               "format": "xmb",
               "outFile": "en.xmb",
-              "outputPath": "src/messages/xmb"
+              "outputPath": "src/locales/xmb"
             }
           },
           "defaultConfiguration": "xlf"
@@ -177,11 +177,11 @@
           "configurations": {
             "xlf": {
               "format": "xlf",
-              "outputPath": "src/messages/xlf"
+              "outputPath": "src/locales/xlf"
             },
             "xlf2": {
               "format": "xlf2",
-              "outputPath": "src/messages/xlf2"
+              "outputPath": "src/locales/xlf2"
             }
           },
           "defaultConfiguration": "xlf"

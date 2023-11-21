@@ -93,7 +93,7 @@ E.g.
 
 Execute the command `yarn extract-i18n`.
 
-Then you will have an [XLIFF](http://docs.oasis-open.org/xliff/xliff-core/v2.0/cos01/xliff-core-v2.0-cos01.html) file with the extracted text (e.g. [en.xlf](src/messages/xlf2/en.xlf)).
+Then you will have an [XLIFF](http://docs.oasis-open.org/xliff/xliff-core/v2.0/cos01/xliff-core-v2.0-cos01.html) file with the extracted text (e.g. [en.xlf](src/locales/xlf2/en.xlf)).
 
 [More details](https://angular.io/guide/i18n-common-translation-files)
 
