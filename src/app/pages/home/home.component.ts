@@ -1,6 +1,5 @@
 import { CurrencyPipe, DatePipe } from '@angular/common';
-import { ChangeDetectionStrategy, Component, OnInit, inject } from '@angular/core';
-import { Meta } from '@angular/platform-browser';
+import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
 import { User } from '../../domain';
@@ -8,6 +7,7 @@ import { FeedbackFormComponent } from '../../shared';
 
 @Component({
   standalone: true,
+  selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -18,7 +18,7 @@ import { FeedbackFormComponent } from '../../shared';
     RouterLink,
   ],
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
   readonly user: User = {
     firstName: 'John',
     lastName: 'Doe',
@@ -32,13 +32,4 @@ export class HomeComponent implements OnInit {
   readonly welcomeMessage = $localize
     `:@@welcomeMessage:Glad to see you again, ${this.user.firstName}:userFirstName: ${this.user.lastName}:userLastName:.`
   ;
-
-  #meta = inject(Meta);
-
-  ngOnInit(): void {
-    this.#meta.updateTag({
-      name: 'description',
-      content: $localize`:Homepage description for SEO@@homePageSEODescription:Homepage meta description`,
-    });
-  }
 }

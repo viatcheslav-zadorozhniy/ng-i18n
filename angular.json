@@ -22,8 +22,7 @@
         },
         "locales": {
           "he": {
-            "translation": "src/locales/xlf2/he.xlf",
-            "baseHref": "/he/"
+            "translation": "src/locales/xlf2/he.xlf"
           },
           "uk": {
             "translation": [
@@ -41,17 +40,15 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-devkit/build-angular:application",
           "options": {
             "localize": true,
             "i18nMissingTranslation": "error",
             "i18nDuplicateTranslation": "error",
             "outputPath": "dist/app",
             "index": "src/index.html",
-            "main": "src/main.ts",
-            "buildOptimizer": false,
+            "browser": "src/main.ts",
             "optimization": false,
-            "vendorChunk": true,
             "extractLicenses": false,
             "sourceMap": true,
             "namedChunks": true,
@@ -70,9 +67,7 @@
           },
           "configurations": {
             "production": {
-              "buildOptimizer": true,
               "optimization": true,
-              "vendorChunk": false,
               "extractLicenses": true,
               "sourceMap": false,
               "namedChunks": false,
@@ -101,7 +96,7 @@
             },
             "jit": {
               "tsConfig": "tsconfig-jit.app.json",
-              "main": "src/main-jit.ts",
+              "browser": "src/main-jit.ts",
               "localize": false
             }
           },
@@ -165,7 +160,7 @@
         "extract-i18n-merge": {
           "builder": "ng-extract-i18n-merge:ng-extract-i18n-merge",
           "options": {
-            "browserTarget": "app:build",
+            "buildTarget": "app:build",
             "sourceFile": "en.xlf",
             "includeContext": "sourceFileOnly",
             "newTranslationTargetsBlank": true,

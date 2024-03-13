@@ -32,7 +32,7 @@ export class AppRootComponent {
   #jitTranslation = inject(JIT_TRANSLATION);
   #platformLocation = inject(PlatformLocation);
 
-  handleLocaleChange(localeId: Locale): void {
+  handleLocaleChange(localeId: Locale) {
     if (this.#jitTranslation) {
       localStorage.setItem(localeStorageKey, localeId);
       location.reload();

@@ -3,6 +3,10 @@
   "translations": {
     "menuItemHome": "Домашня",
     "menuItemAbout": "Про нас",
+    "SEO.homePage.title": "Домашня сторінка",
+    "SEO.homePage.description": "Опис домашньої сторінки",
+    "SEO.aboutPage.title": "Про нас",
+    "SEO.aboutPage.description": "Опис сторінки про нас",
     "fullPageTitle": "{$pageTitle} | Додаток",
     "feedbackFormTitle": "Форма зворотнього зв'язку",
     "feedbackFormLabel": "Залиште ваш відгук, {$ICU} {$INTERPOLATION}",

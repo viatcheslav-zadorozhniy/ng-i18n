@@ -13,13 +13,19 @@
         <target>על אודות</target>
       </segment>
     </unit>
-    <unit id="homePageSEOTitle">
+    <unit id="SEO.homePage.title">
+      <notes>
+        <note category="description">Homepage title for SEO</note>
+      </notes>
       <segment state="final">
         <source>Homepage</source>
         <target>דף הבית</target>
       </segment>
     </unit>
-    <unit id="aboutPageSEOTitle">
+    <unit id="SEO.aboutPage.title">
+      <notes>
+        <note category="description">About page title for SEO</note>
+      </notes>
       <segment state="final">
         <source>About</source>
         <target>על אודות</target>
@@ -61,13 +67,20 @@
         <target>צינורות תרגום נפרדים</target>
       </segment>
     </unit>
-    <unit id="aboutPageSEODescription">
+    <unit id="SEO.aboutPage.description">
+      <notes>
+        <note category="description">About page description for SEO</note>
+      </notes>
       <segment state="final">
         <source>About page meta description</source>
         <target>מידע על מטא תיאור דף</target>
       </segment>
     </unit>
     <unit id="homePageTitle">
+      <notes>
+        <note category="description">Homepage title</note>
+        <note category="meaning">An introduction header of the application</note>
+      </notes>
       <segment state="final">
         <source>Internationalization</source>
         <target>בִּנאוּם</target>
@@ -92,18 +105,27 @@
       </segment>
     </unit>
     <unit id="dateLabel">
+      <notes>
+        <note category="description">Date label</note>
+      </notes>
       <segment state="final">
         <source>Date:</source>
         <target>תַאֲרִיך:</target>
       </segment>
     </unit>
     <unit id="timeLabel">
+      <notes>
+        <note category="description">Time label</note>
+      </notes>
       <segment state="final">
         <source>Time:</source>
         <target>זְמַן:</target>
       </segment>
     </unit>
     <unit id="currencyLabel">
+      <notes>
+        <note category="description">Currency label</note>
+      </notes>
       <segment state="final">
         <source>Currency:</source>
         <target>מַטְבֵּעַ:</target>
@@ -121,13 +143,19 @@
         <target>שמח לראות אותך שוב, <ph id="0" equiv="userFirstName" disp="this.user.firstName"/> <ph id="1" equiv="userLastName" disp="this.user.lastName"/>.</target>
       </segment>
     </unit>
-    <unit id="homePageSEODescription">
+    <unit id="SEO.homePage.description">
+      <notes>
+        <note category="description">Homepage description for SEO</note>
+      </notes>
       <segment state="final">
         <source>Homepage meta description</source>
         <target>תיאור מטא של דף הבית</target>
       </segment>
     </unit>
     <unit id="fullPageTitle">
+      <notes>
+        <note category="description">Page title including application name</note>
+      </notes>
       <segment state="final">
         <source><ph id="0" equiv="pageTitle" disp="title"/> | Application</source>
         <target><ph id="0" equiv="pageTitle" disp="title"/> | יישום</target>
@@ -140,8 +168,8 @@
       </segment>
     </unit>
     <unit id="feedbackFormLabel">
-      <segment state="final">
-        <source>Leave you feedback, <ph id="0" equiv="ICU" disp="{user.gender, select, male {Mr.} female {Ms.}}" subFlows="6514815349462835782"/> <ph id="1" equiv="INTERPOLATION" disp="{{ user.firstName }}"/></source>
+      <segment state="initial">
+        <source>Leave you feedback, <ph id="0" equiv="ICU" disp="{user().gender, select, male {Mr.} female {Ms.}}" subFlows="6514815349462835782"/> <ph id="1" equiv="INTERPOLATION" disp="{{ user().firstName }}"/></source>
         <target>השאירו משוב, <ph id="0" equiv="ICU" disp="{user.gender, select, male {Mr.} female {Ms.}}" subFlows="6514815349462835782"/> <ph id="1" equiv="INTERPOLATION" disp="{{ user.firstName }}"/></target>
       </segment>
     </unit>

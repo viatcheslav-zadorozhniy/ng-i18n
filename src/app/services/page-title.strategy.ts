@@ -8,7 +8,7 @@ export class PageTitleStrategy extends TitleStrategy {
   #title = inject(Title);
 
   // https://angular.io/guide/router#setting-the-page-title
-  override updateTitle(snapshot: RouterStateSnapshot): void {
+  override updateTitle(snapshot: RouterStateSnapshot) {
     const title = this.buildTitle(snapshot);
 
     if (title !== undefined) {

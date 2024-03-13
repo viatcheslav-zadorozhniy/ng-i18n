@@ -64,20 +64,18 @@ Add `extract-i18n` configuration to the `angular.json`.
 
 E.g.
 ```json
-"projects": {
-  "app": {
-    "architect": {
-      "extract-i18n": {
-        "builder": "@angular-devkit/build-angular:extract-i18n",
-        "options": {
-          "browserTarget": "app:build",
-          "outFile": "locales/en.xlf",
-          "format": "xlf2"
-        }
-      }
+...
+"architect": {
+  "extract-i18n": {
+    "builder": "@angular-devkit/build-angular:extract-i18n",
+    "options": {
+      "browserTarget": "app:build",
+      "outFile": "locales/en.xlf",
+      "format": "xlf2"
     }
   }
 }
+...
 ```
 
 Add **extract-i18n** script to the `package.json`.
@@ -91,7 +89,7 @@ E.g.
 }
 ```
 
-Execute the command `yarn extract-i18n`.
+Execute the command via `npm run extract-i18n`.
 
 Then you will have an [XLIFF](http://docs.oasis-open.org/xliff/xliff-core/v2.0/cos01/xliff-core-v2.0-cos01.html) file with the extracted text (e.g. [en.xlf](src/locales/xlf2/en.xlf)).
 
@@ -105,45 +103,40 @@ Then you will have an [XLIFF](http://docs.oasis-open.org/xliff/xliff-core/v2.0/c
 
 E.g.
 ```json
-{
-  "projects": {
-    "app": {
-      "i18n": {
-        "sourceLocale": "en",
-        "locales": {
-          "he": {
-            "translation": "locales/he.xlf",
-            "baseHref": "/he/"
-          },
-          "uk": {
-            "translation": "locales/uk.xlf",
-            "baseHref": "/uk/"
-          }
-        }
+...
+"i18n": {
+  "sourceLocale": "en",
+  "locales": {
+    "he": {
+      "translation": "locales/he.xlf"
+    },
+    "uk": {
+      "translation": "locales/uk.xlf",
+      "baseHref": "/uk/"
+    }
+  }
+},
+"architect": {
+  "build": {
+    "options": {
+      "localize": true,
+      "i18nMissingTranslation": "error",
+      "i18nDuplicateTranslation": "error"
+    },
+    "configurations": {
+      "development": {
+        "localize": ["en"]
       },
-      "architect": {
-        "build": {
-          "options": {
-            "localize": true,
-            "i18nMissingTranslation": "error",
-            "i18nDuplicateTranslation": "error"
-          },
-          "configurations": {
-            "development": {
-              "localize": ["en"]
-            },
-            "he": {
-              "localize": ["he"]
-            },
-            "uk": {
-              "localize": ["uk"]
-            }
-          }
-        }
+      "he": {
+        "localize": ["he"]
+      },
+      "uk": {
+        "localize": ["uk"]
       }
     }
   }
 }
+...
 ```
 
 [More details](https://angular.io/guide/i18n-common-merge#define-locales-in-the-build-configuration)

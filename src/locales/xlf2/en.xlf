@@ -3,7 +3,7 @@
   <file id="ngi18n" original="ng.template">
     <unit id="menuItemHome">
       <notes>
-        <note category="location">src/app/app-root.component.html:8</note>
+        <note category="location">src/app/app-root.component.html:9,11</note>
       </notes>
       <segment>
         <source>Home</source>
@@ -11,13 +11,13 @@
     </unit>
     <unit id="menuItemAbout">
       <notes>
-        <note category="location">src/app/app-root.component.html:14</note>
+        <note category="location">src/app/app-root.component.html:14,17</note>
       </notes>
       <segment>
         <source>About</source>
       </segment>
     </unit>
-    <unit id="homePageSEOTitle">
+    <unit id="SEO.homePage.title">
       <notes>
         <note category="location">src/app/app.routes.ts:11</note>
         <note category="description">Homepage title for SEO</note>
@@ -26,9 +26,9 @@
         <source>Homepage</source>
       </segment>
     </unit>
-    <unit id="aboutPageSEOTitle">
+    <unit id="SEO.aboutPage.title">
       <notes>
-        <note category="location">src/app/app.routes.ts:16</note>
+        <note category="location">src/app/app.routes.ts:24</note>
         <note category="description">About page title for SEO</note>
       </notes>
       <segment>
@@ -37,7 +37,7 @@
     </unit>
     <unit id="aboutPageTitle">
       <notes>
-        <note category="location">src/app/pages/about/about.component.html:1</note>
+        <note category="location">src/app/pages/about/about.component.html:1,3</note>
       </notes>
       <segment>
         <source>About us</source>
@@ -45,7 +45,7 @@
     </unit>
     <unit id="enumTranslatePipesTitle">
       <notes>
-        <note category="location">src/app/pages/about/about.component.html:6</note>
+        <note category="location">src/app/pages/about/about.component.html:6,8</note>
       </notes>
       <segment>
         <source>Enum translate pipes</source>
@@ -53,7 +53,7 @@
     </unit>
     <unit id="singleTranslatePipeTitle">
       <notes>
-        <note category="location">src/app/pages/about/about.component.html:8</note>
+        <note category="location">src/app/pages/about/about.component.html:8,10</note>
       </notes>
       <segment>
         <source>Single translate pipe</source>
@@ -61,8 +61,8 @@
     </unit>
     <unit id="userRoleCaption">
       <notes>
-        <note category="location">src/app/pages/about/about.component.html:10,11</note>
-        <note category="location">src/app/pages/about/about.component.html:20,21</note>
+        <note category="location">src/app/pages/about/about.component.html:11,13</note>
+        <note category="location">src/app/pages/about/about.component.html:21,23</note>
       </notes>
       <segment>
         <source> User role: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span&gt;" dispEnd="&lt;/span&gt;"><ph id="1" equiv="INTERPOLATION" disp="{{ &apos;admin&apos; | enumI18n : &apos;userRole&apos; }}"/></pc></source>
@@ -70,8 +70,8 @@
     </unit>
     <unit id="userStatusCaption">
       <notes>
-        <note category="location">src/app/pages/about/about.component.html:13,14</note>
-        <note category="location">src/app/pages/about/about.component.html:23,24</note>
+        <note category="location">src/app/pages/about/about.component.html:14,16</note>
+        <note category="location">src/app/pages/about/about.component.html:24,26</note>
       </notes>
       <segment>
         <source> User status: <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span&gt;" dispEnd="&lt;/span&gt;"><ph id="1" equiv="INTERPOLATION" disp="{{ &apos;active&apos; | enumI18n : &apos;userStatus&apos; }}"/></pc></source>
@@ -79,15 +79,15 @@
     </unit>
     <unit id="separateTranslatePipesTitle">
       <notes>
-        <note category="location">src/app/pages/about/about.component.html:18</note>
+        <note category="location">src/app/pages/about/about.component.html:18,20</note>
       </notes>
       <segment>
         <source>Separate translate pipes</source>
       </segment>
     </unit>
-    <unit id="aboutPageSEODescription">
+    <unit id="SEO.aboutPage.description">
       <notes>
-        <note category="location">src/app/pages/about/about.component.ts:25</note>
+        <note category="location">src/app/app.routes.ts:30</note>
         <note category="description">About page description for SEO</note>
       </notes>
       <segment>
@@ -96,7 +96,7 @@
     </unit>
     <unit id="homePageTitle">
       <notes>
-        <note category="location">src/app/pages/home/home.component.html:3</note>
+        <note category="location">src/app/pages/home/home.component.html:3,8</note>
         <note category="description">Homepage title</note>
         <note category="meaning">An introduction header of the application</note>
       </notes>
@@ -106,7 +106,7 @@
     </unit>
     <unit id="logoAlternativeText">
       <notes>
-        <note category="location">src/app/pages/home/home.component.html:12</note>
+        <note category="location">src/app/pages/home/home.component.html:12,13</note>
       </notes>
       <segment>
         <source>Angular logo</source>
@@ -114,7 +114,7 @@
     </unit>
     <unit id="textWithoutAnElement">
       <notes>
-        <note category="location">src/app/pages/home/home.component.html:20</note>
+        <note category="location">src/app/pages/home/home.component.html:20,24</note>
       </notes>
       <segment>
         <source>Text without an element.</source>
@@ -122,7 +122,7 @@
     </unit>
     <unit id="builtInPipesTitle">
       <notes>
-        <note category="location">src/app/pages/home/home.component.html:26</note>
+        <note category="location">src/app/pages/home/home.component.html:26,30</note>
       </notes>
       <segment>
         <source>Built-in pipes</source>
@@ -148,7 +148,7 @@
     </unit>
     <unit id="currencyLabel">
       <notes>
-        <note category="location">src/app/pages/home/home.component.html:38</note>
+        <note category="location">src/app/pages/home/home.component.html:38,40</note>
         <note category="description">Currency label</note>
       </notes>
       <segment>
@@ -157,7 +157,7 @@
     </unit>
     <unit id="textWithMarkup">
       <notes>
-        <note category="location">src/app/pages/home/home.component.html:45</note>
+        <note category="location">src/app/pages/home/home.component.html:45,46</note>
       </notes>
       <segment>
         <source>For more information, visit the <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a [routerLink]=&quot;&apos;/about&apos;&quot;&gt;" dispEnd="&lt;/a&gt;">about</pc> page.</source>
@@ -165,15 +165,15 @@
     </unit>
     <unit id="welcomeMessage">
       <notes>
-        <note category="location">src/app/pages/home/home.component.ts:33</note>
+        <note category="location">src/app/pages/home/home.component.ts:32,33</note>
       </notes>
       <segment>
         <source>Glad to see you again, <ph id="0" equiv="userFirstName" disp="this.user.firstName"/> <ph id="1" equiv="userLastName" disp="this.user.lastName"/>.</source>
       </segment>
     </unit>
-    <unit id="homePageSEODescription">
+    <unit id="SEO.homePage.description">
       <notes>
-        <note category="location">src/app/pages/home/home.component.ts:41</note>
+        <note category="location">src/app/app.routes.ts:17</note>
         <note category="description">Homepage description for SEO</note>
       </notes>
       <segment>
@@ -191,7 +191,7 @@
     </unit>
     <unit id="feedbackFormTitle">
       <notes>
-        <note category="location">src/app/shared/feedback-form/feedback-form.component.html:2</note>
+        <note category="location">src/app/shared/feedback-form/feedback-form.component.html:2,4</note>
       </notes>
       <segment>
         <source>Feedback form</source>
@@ -199,10 +199,10 @@
     </unit>
     <unit id="feedbackFormLabel">
       <notes>
-        <note category="location">src/app/shared/feedback-form/feedback-form.component.html:8</note>
+        <note category="location">src/app/shared/feedback-form/feedback-form.component.html:8,11</note>
       </notes>
       <segment>
-        <source>Leave you feedback, <ph id="0" equiv="ICU" disp="{user.gender, select, male {Mr.} female {Ms.}}" subFlows="6514815349462835782"/> <ph id="1" equiv="INTERPOLATION" disp="{{ user.firstName }}"/></source>
+        <source>Leave you feedback, <ph id="0" equiv="ICU" disp="{user().gender, select, male {Mr.} female {Ms.}}" subFlows="6514815349462835782"/> <ph id="1" equiv="INTERPOLATION" disp="{{ user().firstName }}"/></source>
       </segment>
     </unit>
     <unit id="6514815349462835782">
@@ -215,7 +215,7 @@
     </unit>
     <unit id="submitButton">
       <notes>
-        <note category="location">src/app/shared/feedback-form/feedback-form.component.html:14</note>
+        <note category="location">src/app/shared/feedback-form/feedback-form.component.html:14,16</note>
       </notes>
       <segment>
         <source>Submit</source>

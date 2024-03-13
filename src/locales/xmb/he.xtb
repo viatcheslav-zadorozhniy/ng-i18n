@@ -2,15 +2,16 @@
 <translationbundle lang="he">
   <translation id="menuItemHome">בית</translation>
   <translation id="menuItemAbout">על אודות</translation>
-  <translation id="homePageSEOTitle">דף הבית</translation>
-  <translation id="aboutPageSEOTitle">על אודות</translation>
+  <translation id="SEO.homePage.title">דף הבית</translation>
+  <translation id="SEO.homePage.description">תיאור מטא של דף הבית</translation>
+  <translation id="SEO.aboutPage.title">על אודות</translation>
+  <translation id="SEO.aboutPage.description">מידע על מטא תיאור דף</translation>
   <translation id="aboutPageTitle">עלינו</translation>
   <translation id="enumTranslatePipesTitle">צינורות לתרגום ערכים</translation>
   <translation id="singleTranslatePipeTitle">צינור תרגום יחיד</translation>
   <translation id="userRoleCaption">תפקיד משתמש: <ph name="START_TAG_SPAN"/><ph name="INTERPOLATION"/><ph name="CLOSE_TAG_SPAN"/></translation>
   <translation id="userStatusCaption">סטטוס משתמש: <ph name="START_TAG_SPAN"/><ph name="INTERPOLATION"/><ph name="CLOSE_TAG_SPAN"/></translation>
   <translation id="separateTranslatePipesTitle">צינורות תרגום נפרדים</translation>
-  <translation id="aboutPageSEODescription">מידע על מטא תיאור דף</translation>
   <translation id="homePageTitle">בִּנאוּם</translation>
   <translation id="logoAlternativeText">לוגו זוויתי</translation>
   <translation id="textWithoutAnElement">טקסט ללא אלמנט.</translation>
@@ -20,7 +21,6 @@
   <translation id="currencyLabel">מַטְבֵּעַ:</translation>
   <translation id="textWithMarkup">למידע נוסף, בקר בדף <ph name="START_LINK"/>אודות<ph name="CLOSE_LINK"/>.</translation>
   <translation id="welcomeMessage">שמח לראות אותך שוב, <ph name="userFirstName"/> <ph name="userLastName"/>.</translation>
-  <translation id="homePageSEODescription">תיאור מטא של דף הבית</translation>
   <translation id="fullPageTitle"><ph name="pageTitle"/> | יישום</translation>
   <translation id="feedbackFormTitle">טופס משוב</translation>
   <translation id="feedbackFormLabel">השאירו משוב, <ph name="ICU"/> <ph name="INTERPOLATION"/></translation>

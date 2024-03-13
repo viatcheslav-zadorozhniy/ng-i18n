@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input } from '@angular/core';
 
 import { User } from '../../domain';
 
@@ -9,5 +9,5 @@ import { User } from '../../domain';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class FeedbackFormComponent {
-  @Input({ required: true }) user!: User;
+  readonly user = input.required<User>();
 }

@@ -5,7 +5,7 @@
   <label
     for="feedback"
     i18n="@@feedbackFormLabel"
-  >Leave you feedback, {user.gender, select, male {Mr.} female {Ms.}} {{ user.firstName }}</label>
+  >Leave you feedback, {user().gender, select, male {Mr.} female {Ms.}} {{ user().firstName }}</label>
   <br>
 
   <textarea id="feedback" name="feedback"></textarea>
