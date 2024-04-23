@@ -38,6 +38,6 @@ export class PageMetadataService {
      routeConfigWithMetadata = routeConfig?.[RouteMetadataKey] ? routeConfig : routeConfigWithMetadata;
     }
 
-    return routeConfigWithMetadata?.[RouteMetadataKey]?.();
+    return routeConfigWithMetadata?.[RouteMetadataKey];
   }
 }
